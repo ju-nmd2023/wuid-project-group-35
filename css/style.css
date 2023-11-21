@@ -1,0 +1,44 @@
+
+
+
+#logo{
+    font-size: larger;
+}
+
+#firstpic{
+    width: 100%;
+}
+
+/* flexbox for horizontal scrolling on news */
+#news-container{
+    display: flex;
+    overflow-x: auto;
+}
+.news-picture{
+    flex: 0 0 auto;
+    width: fit-content;
+}
+
+.news-picture img {
+    width: 20%;
+    height: auto;
+}
+
+/* Main picture for latest news */
+#main-news-pic{
+    width: 100%;
+}
+
+/* flexbox for horizontal scrolling on categories */
+#picture-container {
+    display: flex;
+    overflow-x: auto;
+}
+.picture  {
+    flex: 0 0 auto;
+    width: fit-content;
+}
+.picture img {
+    width: 30%;
+    height: auto;
+}
