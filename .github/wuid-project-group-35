@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>houseoflily
+    
+      <link rel="stylesheet" href="css/style.css">
+    </title>
+</head>
+<h1 id="logo"> <!--Logotype- fix later the look of it-->
+
+   House of Lily
+</h1>
+
+<!--Searchbar-->
+  <input type="search" name="search" id="search" placeholder="Search for products..">
+  <button type="submit">search</button>
+</form>
+
+
+<nav class="navbar"> <!--Mainmenu start-->
+  <ul class="navlist">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="#">News</a></li>
+    <li><a href="#">Category</a>
+  
+        <ul class="dropdown"> <!--Categories-->
+            <li><a href="#"></a>All products</li>
+            <li><a href="#"></a>Dresses</li>
+            <li><a href="#"></a>Jackets</li>
+            <li><a href="#"></a>Sweatshirts</li>
+            <li><a href="#"></a>Blouses</li>
+            <li><a href="#"></a>Skirts</li>
+            <li><a href="#"></a>Jeans</li>
+            <li><a href="#"></a>Trousers</li>
+            <li><a href="#"></a>Shorts</li>
+            <li><a href="#"></a>Shoes</li>
+            <li><a href="#"></a>Sets</li>
+            <li><a href="accessories.html"></a>Accessories</li>
+        </ul>
+    
+    </li>
+    <li><a href="#">Most popular</a></li>
+    <li><a href="#">Sale</a></li>
+  </ul> <!--Mainmenu finish-->
+
+</nav>
+
+<body>
+    
+</body>
+
+<footer> <!--Footer-->
+
+  <p id="foot" >© House of Lily
+  </p> 
+</footer>
+
+</html>
