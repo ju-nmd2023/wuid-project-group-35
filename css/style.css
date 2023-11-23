@@ -13,14 +13,16 @@
 #news-container{
     display: flex;
     overflow-x: auto;
+    
 }
 .news-picture{
-    flex: 0 0 auto;
+    flex-direction: row;
     width: fit-content;
+    
 }
 
 .news-picture img {
-    width: 20%;
+    max-width:50%;
     height: auto;
 }
 
