@@ -14,12 +14,21 @@
     
 }
 .sidemenu{
-    flex-direction: row;
+    flex-direction: ;
     max-width: 5vw;
-    padding-top: 100vw;
-    padding: 5px;
-    
+    padding: 5px;    
 }
+
+/* RÖR EJJJJJJ */
+#firstvideo{
+    width: 100%;
+    overflow: hidden;
+}
+
+#video{
+    display: flex;
+}
+
 .sidemenu img{
     max-width: 4vw;
 }
