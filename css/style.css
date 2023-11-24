@@ -7,13 +7,13 @@ body {
   width: 50%;
   align-items: center;
   padding-right: 20vw;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 #head-container {
   display: flex;
   overflow-x: auto;
-  padding-left: 40%;
+  padding-left: 25%;
 }
 .sidemenu {
   flex-direction: row;
@@ -21,9 +21,23 @@ body {
   padding-top: 100vw;
   padding: 5px;
 }
-.sidemenu img {
-  max-width: 4vw;
+
+#flower-pic{
+    height: 0%;
+    max-width: 20%
 }
+
+#image-container {
+   display: flex;
+   align-items: center;
+   justify-content: center ;
+}
+
+.sidemenu img {
+    max-width: 4vw;
+  }
+
+
 /* searchbutton */
 #searchfield {
   position: absolute;
