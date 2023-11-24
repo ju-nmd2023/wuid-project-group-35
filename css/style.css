@@ -1,41 +1,18 @@
-body {
-  margin: 0;
-  display: grid;
-}
-/* Headbar */
- HEAD #main-logo {
-  width: 50%;
-  align-items: center;
-  padding-right: 20vw;
-  padding-top: 30px;
-}
 
+/* Header */
 #head-container {
-  display: flex;
-  overflow-x: auto;
-  padding-left: 25%;
+  max-width: 100%;
+  justify-content: flex-end;
 }
 .sidemenu {
-  flex-direction: row;
   max-width: 5vw;
   padding-top: 100vw;
   padding: 5px;
 }
 
-#flower-pic{
-    height: 0%;
-    max-width: 20%
-}
-
 #image-container {
-   display: flex;
-   align-items: center;
-   justify-content: center ;
+  padding-left: 20%;
 }
-
-.sidemenu img {
-    max-width: 4vw;
-  }
 
 
 /* searchbutton */
@@ -45,19 +22,25 @@ body {
   left: 70%;
   transform: translate(-40%, 50%);
 }
-======= #main-logo {
-  width: 40%;
+
+#main-logo {
+  width: 50%;
   padding-top: 20px;
   margin: 0 auto;
   padding-left: 200px;
+  padding-right: none;
 }
 
-#image-container img {
-  max-width: 70%;
+#image-container {
+  padding: none;
 }
+
 
 #image-container #flower-pic {
-  max-width: 10%;
+  padding-top: 50px;
+  padding-right: 120px;
+  max-width: 120px
+
 }
 
 #image-container {
@@ -144,7 +127,7 @@ body {
 .navlist {
   display: flex;
   list-style: none;
-  padding-left: 0%;
+  padding-left: %;
   padding-top: none;
 }
 
@@ -234,3 +217,69 @@ body {
 }
 
 /* category-page */
+#background-pic{
+  width: 100%;
+  overflow: hidden;
+  align-items: center;
+  opacity: 50%;
+}
+
+.category-overlay{
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  font-size: 50px;
+  text-align: center;
+}
+
+.link-list{
+  list-style: none;
+}
+.category{
+  color: black;
+  text-decoration: none;
+  line-height: 2.4;
+}
+
+/* styling for footer */
+footer {
+  background-color: lightgray;
+  padding: 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 70px;
+}
+
+/* align text */
+.footer-column {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-column p {
+  margin: 5px 0;
+}
+
+.foot-text{
+  text-align: left;
+  line-height: 1.6;
+}
+
+.footer-container{
+  padding-left: 100px;
+  padding-top: 70px;
+}
+
+/* style font */
+.foot-head{
+font-weight: bolder;
+text-align: left;
+text-decoration: underline;
+}
+
+#foot{
+  font-weight: bolder;
+}
