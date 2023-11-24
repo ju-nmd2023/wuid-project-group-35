@@ -1,9 +1,54 @@
 
-
-
-#logo{
-    font-size: larger;
+/* Headbar */
+#main-logo{
+    width:50%;
+    align-items: center;
+    padding-right: 20vw;
+    padding-top: 20px;    
 }
+
+#head-container{
+    display: flex;
+    overflow-x: auto;
+    padding-left:40%
+    
+}
+.sidemenu{
+    flex-direction: row;
+    max-width: 5vw;
+    padding-top: 100vw;
+    padding: 5px;
+    
+}
+.sidemenu img{
+    max-width: 4vw;
+}
+/* searchbutton */
+#searchfield{
+  display: ;
+  position: absolute;
+  top: 4%;
+  left: 70%;
+  transform: translate(-40%, 50%);
+    
+}
+
+.navlist{
+    display: flex;
+    list-style: none;
+    padding-left: 0%;
+    padding-top: none;
+}
+
+.navlist li {
+    margin-right: 10%;
+}
+
+.navlist li a {
+    text-decoration: none;
+    color: black;
+}
+
 
 #firstpic{
     width: 100%;
@@ -12,18 +57,16 @@
 /* flexbox for horizontal scrolling on news */
 #news-container{
     display: flex;
-    overflow-x: auto;
-    
+    overflow-x: auto;  
 }
 .news-picture{
     flex-direction: row;
-    width: fit-content;
-    
+    width: fit-content;   
 }
-
 .news-picture img {
-    max-width:50%;
-    height: auto;
+    max-width:30vw;
+    height: 40vw;
+    padding: 10px;
 }
 
 /* Main picture for latest news */
@@ -41,6 +84,8 @@
     width: fit-content;
 }
 .picture img {
-    width: 30%;
+    width: 40vw;
     height: auto;
 }
+
+/* category-page */
