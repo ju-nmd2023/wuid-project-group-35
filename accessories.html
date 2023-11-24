@@ -1,40 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Accessories</title>
-</head>
-<h1 id="logo"> <!--Logotype- fix later the look of it-->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1 id="logo"><!--Logotype- fix later the look of it--></h1>
 
-    House of Lily
- </h1>
- 
- <!--Searchbar-->
-   <input type="search" name="search" id="search" placeholder="Search for products..">
-   <button type="submit">search</button>
- </form>
- 
- 
- <nav class="navbar"> <!--Mainmenu start-->
-   <ul class="navlist">
-     <li><a href="index.html">Home</a></li>
-     <li><a href="#">News</a></li>
-     <li><a href="categories.html">Category</a></li>
-     <li><a href="#">Most popular</a></li>
-     <li><a href="#">Sale</a></li>
-   </ul> <!--Mainmenu finish-->
+    <header>
+      <div id="head-container">
+        <img
+          id="main-logo"
+          src="images/houseoflily.jpg"
+          alt="logotype for house of lily"
+        />
 
-   <h2>
-Accessories
-   </h2>
+        <!--Searchfield-->
+        <form id="searchfield" class="hidden">
+          <input
+            id="searchfield"
+            type="text"
+            id="searchinput"
+            placeholder="Search here.."
+          />
+        </form>
 
-</body>
+        <div class="sidemenu">
+          <img id="searchicon" src="images/search.png" alt="icon for search" />
+        </div>
 
-<footer> <!--Footer-->
+        <div id="searchicon" class="sidemenu">
+          <img src="images/profile.png" alt="icon for profile" />
+        </div>
 
-    <p id="foot" >© House of Lily
-    </p> 
+        <div class="sidemenu">
+          <img src="images/heart.jpeg" alt="icon for hearted items" />
+        </div>
+
+        <div class="sidemenu">
+          <img src="images/shoppingbag.png" alt="icon for shoppingbag" />
+        </div>
+      </div>
+    </header>
+    <nav class="navbar">
+      <!--Mainmenu start-->
+      <ul class="navlist">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="categories.html">Category</a></li>
+        <li><a href="#">Most popular</a></li>
+        <li><a href="#">Sale</a></li>
+      </ul>
+      <!--Mainmenu finish-->
+    </nav>
+
+    <div id="front-accessories-container">
+      <img
+        id="front-accessories"
+        src="images/accesories1.jpeg"
+        alt="Front picture for the latest collection fronted by a girl wearing gold accessories"
+      />
+      <div class="text-overlay">ACCESSORIES</div>
+    </div>
+
+    <div>
+      <p class="sortandfilter">Sort+</p>
+      <p class="sortandfilter">Filter+</p>
+    </div>
+
+    <section>
+      <div id="accesories-container">
+        <figure class="accessories-pictures">
+          <img src="images/ring.jpeg" alt="picture of gold ring" />
+        </figure>
+        <figure class="accessories-pictures">
+          <img src="images/tie.jpeg" alt="picture of a tie" />
+        </figure>
+        <figure class="accessories-pictures">
+          <img src="images/heals-silver.jpeg" alt="picture of silver heels" />
+        </figure>
+        <figure class="accessories-pictures">
+          <img src="images/ring.second.jpeg" alt="picture of gold ring" />
+        </figure>
+        <figure class="accessories-pictures">
+          <img src="images/bikini.jpeg" alt="picture of golden bikini" />
+        </figure>
+        <figure class="accessories-pictures">
+          <img src="images/silver-bag.jpeg" alt="picture of silver bag" />
+        </figure>
+          <figure class="accessories-pictures">
+          <img src="images/stone-bag.jpeg" alt="pictures of bag with glass stones">
+  </figure>
+  <figure class="accessories-pictures">
+    <img src="images/" alt="">
+  </figure>
+  <figure class="accessories-pictures">
+    <img src="" alt="">
+  </figure>
+  <figure class="accessories-pictures">
+    <img src="" alt="">
+  </figure>
+  <figure class="accessories-pictures">
+    <img src="" alt="">
+  </figure>
+  <figure class="accessories-pictures">
+    <img src="" alt="">
+  </figure>
+      </div>
+    </section>
+  </body>
+
+  <footer>
+    <!--Footer-->
+
+    <p id="foot">© House of Lily</p>
   </footer>
-  
 </html>
