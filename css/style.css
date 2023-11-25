@@ -1,32 +1,123 @@
-/* Headbar */
-#main-logo {
-  width: 50%;
-  align-items: center;
-  padding-right: 20vw;
-  padding-top: 20px;
-}
-
+/* Header */
 #head-container {
-  display: flex;
-  overflow-x: auto;
-  padding-left: 40%;
+  max-width: 100%;
+  justify-content: flex-end;
 }
 .sidemenu {
-  flex-direction: row;
   max-width: 5vw;
   padding-top: 100vw;
   padding: 5px;
 }
-.sidemenu img {
-  max-width: 4vw;
+
+#image-container {
+  padding-left: 20%;
 }
+
 /* searchbutton */
 #searchfield {
-  display: ;
   position: absolute;
   top: 4%;
   left: 70%;
   transform: translate(-40%, 50%);
+}
+
+#main-logo {
+  width: 50%;
+  padding-top: 20px;
+  margin: 0 auto;
+  padding-left: 200px;
+  padding-right: none;
+}
+
+#image-container {
+  padding: none;
+}
+
+#image-container #flower-pic {
+  padding-top: 50px;
+  padding-right: 120px;
+  max-width: 120px;
+}
+
+#image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#head-container {
+  max-width: 100vw;
+  display: flex;
+  overflow-x: auto;
+  margin: 0%;
+}
+.sidemenu {
+  flex-direction: row;
+  max-width: 5vw;
+  padding: 5px;
+}
+
+.sidemenu-pic {
+  width: 30px;
+}
+
+/* SEARCHFIELD */
+/* Styling for the search container */
+.search-container {
+  display: flex;
+  align-items: center;
+  height: 10px;
+  padding-top: 15px;
+  padding-right: 10px;
+}
+
+/* Styling for the search bar form */
+.search-bar {
+  display: flex;
+  border: 2px solid #ccc;
+  border-radius: 100px;
+  overflow: hidden;
+  padding-top: 0px;
+}
+
+/* Styling for the search input */
+.search-bar input[type="text"] {
+  border: none;
+  padding: 10px;
+  width: 100px;
+  outline: none;
+}
+
+/* Styling for the search button */
+.search-bar button {
+  background-color: white;
+  color: white;
+  border: 1px;
+}
+
+/* Style the search icon inside the button */
+#searchicon {
+  width: 30px;
+  height: auto;
+  margin-right: 5px;
+}
+
+/* Styling for gap between serchfield and rest of icons */
+.sidemenu {
+  margin-left: 10px;
+}
+
+/* RÖR EJJJJJJ */
+#firstvideo {
+  width: 100%;
+  overflow: hidden;
+}
+
+#video {
+  display: flex;
+}
+
+.sidemenu img {
+  max-width: 4vw;
 }
 
 .navlist {
@@ -47,6 +138,44 @@
 
 #firstpic {
   width: 100%;
+}
+
+#front-accessories-container {
+  width: 100%;
+  text-align: center;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  background-size: cover;
+  position: relative;
+}
+
+#front-accessories {
+  opacity: 65%;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 16vw;
+  left: 25vw;
+  color: white;
+  font-size: 6rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.sortandfilter {
+  display: flex;
+}
+
+#headnews {
+  font-size: x-large;
+  padding-left: 1%;
+  padding-top: 5%;
+  font-weight: bold;
 }
 
 /* flexbox for horizontal scrolling on news */
@@ -84,6 +213,72 @@
 }
 
 /* category-page */
+#background-pic {
+  width: 100%;
+  overflow: hidden;
+  align-items: center;
+  opacity: 50%;
+}
+
+.category-overlay {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  font-size: 50px;
+  text-align: center;
+}
+
+.link-list {
+  list-style: none;
+}
+.category {
+  color: black;
+  text-decoration: none;
+  line-height: 2.4;
+}
+
+/* styling for footer */
+footer {
+  background-color: lightgray;
+  padding: 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 70px;
+}
+
+/* align text */
+.footer-column {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-column p {
+  margin: 5px 0;
+}
+
+.foot-text {
+  text-align: left;
+  line-height: 1.6;
+}
+
+.footer-container {
+  padding-left: 100px;
+  padding-top: 70px;
+}
+
+/* style font */
+.foot-head {
+  font-weight: bolder;
+  text-align: left;
+  text-decoration: underline;
+}
+
+#foot {
+  font-weight: bolder;
+}
 
 /* cart-items*/
 
@@ -135,7 +330,6 @@ td a {
   width: 100%;
   max-width: 350px;
   text-align: center;
-  margin-top: 5%;
 }
 
 button {
@@ -145,4 +339,5 @@ button {
   border: none;
   background: #d9d9d9;
   margin-left: 86%;
+  margin-top: 0%;
 }
