@@ -13,7 +13,28 @@
         <img id="main-logo" src="images/houseoflily.jpg" alt="logotype for house of lily">
     
         <!--Searchbar-->
-       <input type="search" name="search" id="search" placeholder="Search for products..">
+
+       <div class="search-container">
+        <form action="" class="search-bar">
+          <input id="fillin" type="text" placeholder="Search.." name="q">
+          <button id="searchbutton" type="submit"><img id="searchicon" src="images/search.png" alt="">  </button>
+        </form>
+      </div>
+      
+      
+      <div id="searchicon" class="sidemenu">
+      <img class="sidemenu-pic" src="images/profile.png" alt="icon for profile">
+      </div>
+      
+      <div class="sidemenu">
+      <img class="sidemenu-pic" src="images/heart.jpeg" alt="icon for hearted items">
+      </div>
+      
+      <div class="sidemenu">
+      <img class="sidemenu-pic" src="images/shoppingbag.png" alt="icon for shoppingbag">
+      </div>
+      </div>
+      </header>
 </header>
 
 <nav class="navbar"> <!--Mainmenu start-->
@@ -53,37 +74,49 @@
     <h1>
       Color-Gold 
     </h1>
-    
   
     <h2 id="ring-size">
       One-size 
     </h2>
 
-    <h2>
-      <a id="BUY" href="#">BUY</a>
-    </h2>
-    <img id="heart-productpage" src="images/heart.jpeg" alt="icon for hearted items">
-  
+<table>
+<tr>
+  <td><h2>
+    <a id="BUY" href="#">BUY</a>
+  </h2></td>
+  <td><img id="heart-productpage" src="images/heart.jpeg" alt="icon for hearted items"></td>
+</tr>
+</table>
+
   <p>
       Refined simplicity: 14K Gold Cross Ring for timeless elegance.
   </p>
-  
+
+  <div class="border-wrap">
     <p>
       Cross ring with rhinestones:
-  • Gold
-  • Nickel-free and hypoallergenic materials
-  • Engraved logo
-  • Made in Italy
-  
-  External composition: 90% Brass 10% Glass
     </p>
-  </section>
+      <ul>
+        • Gold
+        • Nickel-free and hypoallergenic materials
+        • Engraved logo
+        • Made in Italy
+      </ul>
+      <p>
+        External composition: 90% Brass 10% Glass
+      </p>
+  </div>
+</section>
 
   <!--product description-->
-
-  <h3>
-    Product description, materials and care, delivery and returns
-  </h3>
+<nav>
+  <ul class="description-list">
+   <li><a id="product-description" href="#">Product description</a></li>
+   <li><a id="materials-care" href="#">Materials and care</a></li>
+   <li><a id="delivery-returns" href="#">delivery and returns</a></li>
+  </ul>
+</nav>
+  
   <p>
     Elevate your style with our 14K Gold Cross Ring, a perfect fusion of minimalist charm and timeless elegance. The sleek design speaks volumes, offering a subtle yet sophisticated expression of your unique fashion sense. Crafted with precision, this ring is more than an accessory – it's a statement of enduring style and grace."
   </p>
@@ -106,11 +139,38 @@
       </div>
 
  
-  
-<footer>
-    <!--Footer-->
-
-  <p id="foot" >© House of Lily
-</p> 
-</footer>
+      <footer >
+        <div class="footer-container">
+          <div class="footer-column">
+            <p class="foot-head">My pages</p>
+            <p class="foot-text">Orders</p>
+            <p class="foot-text">My account</p>
+            <p class="foot-text">Privacy policy </p>
+            <p class="foot-text">Cookie policy</p>
+      
+          </div>
+          
+          <div class="footer-column">
+            <p class="foot-head" >About us</p>
+            <p class="foot-text">About</p>
+            <p class="foot-text">Sustainability</p>
+            <p class="foot-text">Contact </p>
+            <p class="foot-text">Magazine </p>
+            <p class="foot-text">Customer Reviews </p>
+      
+          </div>
+          
+          <div class="footer-column">
+            <p class="foot-head">Costumer care</p>
+            <p class="foot-text">Help</p>
+            <p class="foot-text">Return policy</p>
+            <p class="foot-text">Terms and conditions</p>
+            <p class="foot-text">FAQ</p>
+            <p class="foot-text">Shipping Information</p>
+      
+          </div>
+        </div>
+        <p id="foot" >© House of Lily
+        </p> 
+      </footer>
 </html>

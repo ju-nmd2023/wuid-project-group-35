@@ -225,6 +225,7 @@
     overflow-x: auto;
     white-space: nowrap;
     width: 50%;
+    margin-right: 3rem;
   }
 
   .product-container img{
@@ -251,29 +252,67 @@
    }
    
    .ring-descriptions{
-    border-top: 1px solid;
-    border-bottom: 1px solid;
-    border-left: 1px solid;
-    border-right: 1px solid;
+    border: 2px solid black;
+    padding: 10px;
+    display: inline-block;
+    width: 30%;
    }
 
    #ring-size{
-    border-top: 2px solid;
-    border-bottom: 2px solid;
-    border-left: 2px solid;
-    border-right: 2px solid;
+    border: 2px solid black;
+    padding: 10px;
+    display: inline-block;
+    width: 70%;
    }
 
    #BUY{
-    border-top: 2px solid;
-    border-bottom: 2px solid;
-    border-left: 2px solid;
-    border-right: 2px solid;
+    border: 2px solid black;
+    padding: 10px;
+    display: inline-block;
     color: black;
     text-decoration: none;
+    font-weight: bold;
    }
+
+   .border-wrap{
+    border: 2px solid black;
+    padding: 10px;
+    display: inline-block;
+    width: 70%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+   }
+   
 
    #heart-productpage{
     max-width: 5vw;
     padding: 5px;
+    border: 2px solid black;
+    padding: 5px;
+    display: inline-block;
+    width: 30%;
+    height: 15%;
+   }
+
+   footer{
+    background-color: gray;
+   }
+
+   .description-list li{
+    display: inline-block;
+    margin-left: 1rem;
+   }
+
+   #product-description{
+    color: black;
+   }
+
+   #materials-care{
+    color: black;
+    text-decoration: none;
+   }
+
+   #delivery-returns{
+    color: black;
+    text-decoration: none;
    }
