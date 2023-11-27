@@ -3,7 +3,7 @@ body {
   display: grid;
 }
 /* Headbar */
- HEAD #main-logo {
+HEAD #main-logo {
   width: 50%;
   align-items: center;
   padding-right: 20vw;
@@ -31,7 +31,7 @@ body {
   left: 70%;
   transform: translate(-40%, 50%);
 }
-======= #main-logo {
+#main-logo {
   width: 40%;
   padding-top: 20px;
   margin: 0 auto;
