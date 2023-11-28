@@ -267,11 +267,77 @@ HEAD #main-logo {
 
 
 
+/* category-page */
+#background-pic{
+  width: 100%;
+  overflow: hidden;
+  align-items: center;
+  opacity: 50%;
+}
+
+.category-overlay{
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  font-size: 50px;
+  text-align: center;
+}
+
+.link-list{
+  list-style: none;
+}
+.category{
+  color: black;
+  text-decoration: none;
+  line-height: 2.4;
+}
+
+
 /* styling for footer */
 footer {
-  background-color: lightgray;
+  background-color:
   padding: 20px;
 }
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 70px;
+}
+
+/* align text */
+.footer-column {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-column p {
+  margin: 5px 0;
+}
+
+.foot-text{
+  text-align: left;
+  line-height: 1.6;
+}
+
+.footer-container{
+  padding-left: 100px;
+  padding-top: 70px;
+}
+
+/* style font */
+.foot-head{
+font-weight: bolder;
+text-align: left;
+text-decoration: underline;
+}
+
+#foot{
+  font-weight: bolder;
+}
+/* styling for footer */
+
+
 
   .inspo-container img{
     flex-direction: row;
