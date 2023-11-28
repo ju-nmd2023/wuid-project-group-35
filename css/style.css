@@ -238,20 +238,30 @@ HEAD #main-logo {
 }
 
 .sortandfilter {
-  display: flex;
+
 }
 
 #accesories-container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.accessories-pictures {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-inline: 1rem;
 }
 
-.accesories-pictures {
-  width: fit-content;
-  box-sizing: border-box;
-  margin-bottom: 10px;
+
+.accessories-pictures img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
+
 
 
 
