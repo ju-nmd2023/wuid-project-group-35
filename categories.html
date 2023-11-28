@@ -1,16 +1,45 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-</head>
-<h1 id="logo"> <!--Logotype- fix later the look of it-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>houseoflily</title> 
+    <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js"></script></head>
 
-   House of Lily
-</h1>
 
-<!--Searchbar-->
-  <input type="search" name="search" id="search" placeholder="Search for products..">
-  <button type="submit">search</button>
-</form>
+
+<div id="head-container">
+   
+  <div id="image-container">
+  <img id="main-logo" src="images/houseoflily.jpg" alt="logotype for house of lily">  
+  <img id="flower-pic" src="images/flower.jpeg" alt="logo of lily">
+  </div>
+
+<!--Searchfield-->
+<div class="search-container">
+  <form action="" class="search-bar">
+    <input id="fillin" type="text" placeholder="Search.." name="q">
+    <button id="searchbutton" type="submit"><img id="searchicon" src="images/search.png" alt="">  </button>
+  </form>
+</div>
+
+
+<div id="searchicon" class="sidemenu">
+<img class="sidemenu-pic" src="images/profile.png" alt="icon for profile">
+</div>
+
+<div class="sidemenu">
+<img class="sidemenu-pic" src="images/heart.jpeg" alt="icon for hearted items">
+</div>
+
+<div class="sidemenu">
+<img class="sidemenu-pic" src="images/shoppingbag.png" alt="icon for shoppingbag">
+</div>
+</div>
+</header>
+
 
 
 <nav class="navbar"> <!--Mainmenu start-->
@@ -21,35 +50,64 @@
     <li><a href="#">Most popular</a></li>
     <li><a href="#">Sale</a></li>
   </ul> <!--Mainmenu finish-->
-</nav>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>House of Lily</title>
-</head>
-<body>
 
-<div class="wrapper">
-    <div class="image">
-    <img src="images/girl-in-red-dress.jpeg" alt="girl posing in red dress">
-    </div>
-    <h1>hello</h1>
+<body>
+  <div id="categories-container">
+<img id="background-pic" src="images/girl-in-red-dress.jpeg" alt="girl posing in red dress">
+<div class="category-overlay">   
+  <ul class="link-list">
+  <li><a class="category" href="#">Dresses</a></li>
+  <li><a class="category" href="#">Tops</a></li>
+  <li><a class="category" href="#">Jackets</a></li>
+  <li><a class="category" href="#">Sweatshirts</a></li>
+  <li><a class="category" href="#">Blouses</a></li>
+  <li><a class="category" href="#">Skirts</a></li>
+  <li><a class="category" href="#">Jeans</a></li>
+  <li><a class="category" href="#">Trousers</a></li>
+  <li><a class="category" href="#">Shorts</a></li>
+  <li><a class="category" href="#">Shoes</a></li>
+  <li><a class="category" href="#">Sets</a></li>
+  <li><a class="category" href="#">Lingerier</a></li>
+  <li><a class="category" href="accessories.html">Accessories</a></li>
+  </ul> </div>
 </div>
 
-    <ul class="link-list">
-    <li><a href="#">Dresses</a></li>
-    <li><a href="#">Tops</a></li>
-    <li><a href="#">Jackets</a></li>
-    <li><a href="#">Sweatshirts</a></li>
-    <li><a href="#">Blouses</a></li>
-    <li><a href="#">Skirts</a></li>
-    <li><a href="#">Jeans</a></li>
-    <li><a href="#">Trousers</a></li>
-    <li><a href="#">Shorts</a></li>
-    <li><a href="#">Shoes</a></li>
-    <li><a href="#">Sets</a></li>
-    <li><a href="#">Lingerier</a></li>
-    <li><a href="accessories.html">Accessories</a></li>
-    </ul>
+
 
 </body>
+<footer >
+  <div class="footer-container">
+    <div class="footer-column">
+      <p class="foot-head">My pages</p>
+      <p class="foot-text">Orders</p>
+      <p class="foot-text">My account</p>
+      <p class="foot-text">Privacy policy </p>
+      <p class="foot-text">Cookie policy</p>
+
+    </div>
+    
+    <div class="footer-column">
+      <p class="foot-head" >About us</p>
+      <p class="foot-text">About</p>
+      <p class="foot-text">Sustainability</p>
+      <p class="foot-text">Contact </p>
+      <p class="foot-text">Magazine </p>
+      <p class="foot-text">Customer Reviews </p>
+
+    </div>
+    
+    <div class="footer-column">
+      <p class="foot-head">Costumer care</p>
+      <p class="foot-text">Help</p>
+      <p class="foot-text">Return policy</p>
+      <p class="foot-text">Terms and conditions</p>
+      <p class="foot-text">FAQ</p>
+      <p class="foot-text">Shipping Information</p>
+
+    </div>
+  </div>
+  <p id="foot" >© House of Lily
+  </p> 
+</footer>
+
 </html>
