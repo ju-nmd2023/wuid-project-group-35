@@ -1,6 +1,7 @@
 body {
   margin: 0;
   display: grid;
+  font-family: 'Inter', sans-serif;
 }
 
 /* Headbar */
@@ -20,6 +21,7 @@ HEAD #main-logo {
   padding-top: 100vw;
   padding: 5px;
 }
+
 
 #image-container {
   padding-left: 20%;
@@ -160,7 +162,6 @@ HEAD #main-logo {
   font-size: x-large;
   padding-left: 1%;
   padding-top: 5%;
-  font-weight: bold;
 }
 
 /* flexbox for horizontal scrolling on news */
@@ -203,13 +204,13 @@ HEAD #main-logo {
 }
 .fig-cap-category {
   position: absolute;
-  font-weight: bolder;
+  font-weight: 500;
   color: brown;
-  font-size: xx-large;
+  font-size: 25px;
   text-decoration: none;
   top: 35%;
   left: 2%;
-  right: 2%;
+  right: 4%;
   padding: 10% ;
 }
 
@@ -227,7 +228,7 @@ HEAD #main-logo {
 
 .category-overlay{
   position: absolute;
-  top: 40%;
+  top: 70%;
   left: 40%;
   font-size: 50px;
   text-align: center;
