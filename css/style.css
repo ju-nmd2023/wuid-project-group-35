@@ -422,8 +422,13 @@ button {
 .backtotop {
   margin-left: 40%;
   margin-right: 40%;
-  background-color: brown;
-  border-radius: 50%;
+  background-color: gray;
+  border-radius: 100%;
+  position: fixed;
+  right: 45%;
+  top: 80%;
+  width: 100px;
+  height: 100px;
 }
 
 /*product page*/
@@ -557,3 +562,4 @@ footer {
   font-weight: bolder;
 }
 /* styling for footer finished*/
+
