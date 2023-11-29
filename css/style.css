@@ -116,7 +116,7 @@ HEAD #main-logo {
   margin-left: 10px;
 }
 
-/* RÖR EJJJJJJ */
+/* styling for video on frontpage */
 #firstvideo {
   width: 100%;
   overflow: hidden;
@@ -133,7 +133,7 @@ HEAD #main-logo {
 .navlist {
   display: flex;
   list-style: none;
-  padding-left: 0%;
+  padding-left: 5%;
   padding-top: none;
 }
 
@@ -186,15 +186,21 @@ HEAD #main-logo {
   overflow-x: auto;
 }
 .picture {
-  flex: 0 0 auto;
+  flex-direction: row;
   width: fit-content;
 }
 .picture img {
-  width: 40vw;
-  height: auto;
+  max-width: 30vw;
+  height: 40vw;
+  padding: none;
 }
-
-/* category-page */
+.fig-cap-category{
+  text-align: center;
+  font-weight: bolder;
+  color: brown;
+  font-size: xx-large;
+  text-decoration: none;
+}
 
 /* product page*/
 
@@ -262,11 +268,6 @@ HEAD #main-logo {
   display: block;
 }
 
-
-
-
-
-
 /* category-page */
 #background-pic{
   width: 100%;
@@ -295,7 +296,6 @@ HEAD #main-logo {
 
 /* styling for footer */
 footer {
-  background-color:
   padding: 20px;
 }
 
