@@ -25,6 +25,10 @@ HEAD #main-logo {
   padding-left: 20%;
 }
 
+<<<<<<< HEAD
+=======
+/* searchbutton */
+>>>>>>> 4ffcb64f3b56b42bb13a7ef6a647363ad88b5933
 /* SEARCHFIELD */
 /* Styling for the search container */
 .search-container {
@@ -36,7 +40,7 @@ HEAD #main-logo {
 }
 
 /* Styling for the search bar form */
-.search-bar { 
+.search-bar {
   display: flex;
   border: 2px solid #ccc;
   border-radius: 100px;
@@ -197,6 +201,18 @@ HEAD #main-logo {
   text-decoration: none;
 }
 
+/* product page*/
+
+/*scroll ring pictures*/
+.product-container {
+  float: right;
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  width: 50%;
+  margin-right: 3rem;
+}
+
 /* Accessories-page*/
 #front-accessories-container {
   width: 100%;
@@ -297,11 +313,65 @@ div {
 /*PRODUCT PAGE-INFO PAGE OF A PRODUCT*/
 
 /* product page*/
+<<<<<<< HEAD
   .text-above{
     position: absolute;
     
   }
    
+=======
+
+.footer-column p {
+  margin: 5px 0;
+}
+
+.foot-text {
+  text-align: left;
+  line-height: 1.6;
+}
+
+.footer-container {
+  padding-left: 100px;
+  padding-top: 70px;
+}
+
+/* style font */
+.foot-head {
+  font-weight: bolder;
+  text-align: left;
+  text-decoration: underline;
+}
+
+#foot {
+  font-weight: bolder;
+}
+
+/* styling for footer */
+.inspo-container img {
+  flex-direction: row;
+  max-width: 30vw;
+  height: 40vw;
+  padding: 10px;
+}
+
+.text-above {
+  position: absolute;
+}
+.ring-descriptions {
+  border: 2px solid black;
+  padding: 10px;
+  display: inline-block;
+  width: 30%;
+}
+
+.inspo-container img {
+  flex-direction: row;
+  max-width: 30vw;
+  height: 40vw;
+  padding: 10px;
+}
+
+>>>>>>> 4ffcb64f3b56b42bb13a7ef6a647363ad88b5933
 .text-above {
   position: absolute;
 }
@@ -311,17 +381,17 @@ div {
   margin-left: 1rem;
 }
 
-
 /* SHOPPINGBAG PAGE*/
 
 .cart-img {
-  width: 20%;
+  width: 30%;
   margin-right: 10px;
 }
 
 .cart-items {
   margin: 80px auto;
 }
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -370,10 +440,59 @@ button {
   border-radius: 0px;
   border: none;
   background: #d9d9d9;
-  margin-left: 86%;
-  margin-top: 0%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
+<<<<<<< HEAD
+=======
+/*product page*/
+
+.description-list li {
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.border-wrap {
+  border: 2px solid black;
+  padding: 10px;
+  display: inline-block;
+  width: 70%;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+#heart-productpage {
+  max-width: 5vw;
+  padding: 5px;
+  border: 2px solid black;
+  padding: 5px;
+  display: inline-block;
+  width: 30%;
+  height: 15%;
+}
+
+#ring-size {
+  border: 2px solid black;
+  padding: 10px;
+  display: inline-block;
+  width: 70%;
+}
+
+#BUY {
+  border: 2px solid black;
+  padding: 10px;
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.inspo-container {
+  overflow-x: auto;
+  display: flex;
+}
+>>>>>>> 4ffcb64f3b56b42bb13a7ef6a647363ad88b5933
 
 .inspo-container img {
   flex-direction: row;
@@ -390,11 +509,10 @@ button {
   width: 50%;
   margin-right: 3rem;
 }
-.product-container img{
+.product-container img {
   max-width: 100%;
   height: auto;
   display: inline-block;
-
 }
 #product-description {
   color: black;
@@ -410,7 +528,7 @@ button {
   text-decoration: none;
 }
 
-.ring-descriptions{
+.ring-descriptions {
   border: 2px solid;
   display: inline-block;
 }
