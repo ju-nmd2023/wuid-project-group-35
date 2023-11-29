@@ -2,7 +2,7 @@
 body {
   margin: 0;
   display: grid;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 /* Styling for logo */
@@ -179,12 +179,11 @@ head #main-logo {
   padding: 10px;
 }
 
-
-#picture-container{
+#picture-container {
   padding-top: 5%;
 }
 
-#firstpage-category-container{
+#firstpage-category-container {
   display: flex;
 }
 /* Styling for text above category-scroll */
@@ -197,12 +196,12 @@ head #main-logo {
   top: 35%;
   left: 2%;
   right: 4%;
-  padding: 10% ;
+  padding: 10%;
 }
 
 /* CATEGORY PAGE */
 /* Styling for backgroundpicture */
-#background-pic{
+#background-pic {
   width: 100%;
   overflow: hidden;
   align-items: center;
@@ -210,7 +209,7 @@ head #main-logo {
 }
 
 /* Styling for text above picture */
-.category-overlay{
+.category-overlay {
   position: absolute;
   top: 70%;
   left: 40%;
@@ -218,15 +217,14 @@ head #main-logo {
   text-align: center;
 }
 
-.link-list{
+.link-list {
   list-style: none;
 }
-.category{
+.category {
   color: black;
   text-decoration: none;
   line-height: 2.4;
 }
-
 
 /* PRODUCT*/
 
@@ -408,21 +406,16 @@ td a {
   max-width: 350px;
   text-align: center;
 }
-
+/*to checkout*/
 button {
   align-self: flex-start;
   padding: 1rem 2rem;
   border-radius: 0px;
   border: none;
   background: #d9d9d9;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 74%;
 }
-
-#checkout-button{
-  padding-left: 50%;
-}
-
+/*to top*/
 .backtotop {
   margin-left: 40%;
   margin-right: 40%;
@@ -566,4 +559,3 @@ footer {
   font-weight: bolder;
 }
 /* styling for footer finished*/
-
