@@ -344,11 +344,10 @@ div {
 /*PRODUCT PAGE-INFO PAGE OF A PRODUCT*/
 
 /* product page*/
-  .text-above{
-    position: absolute;
-    
-  }
-   
+.text-above {
+  position: absolute;
+}
+
 .text-above {
   position: absolute;
 }
@@ -359,7 +358,6 @@ div {
 }
 
 /* SHOPPINGBAG PAGE*/
-
 .shopping {
   padding-left: 3%;
 }
@@ -423,6 +421,11 @@ button {
   background: #d9d9d9;
   margin-left: 20%;
   margin-right: 20%;
+}
+
+.backtotop {
+  margin-left: 40%;
+  margin-right: 40%;
 }
 
 /*product page*/
@@ -515,8 +518,8 @@ button {
 footer {
   background-color: #d9d9d9;
 
-  color: black; 
-  padding: 20px; 
+  color: black;
+  padding: 20px;
 }
 
 .footer-container {
@@ -535,24 +538,24 @@ footer {
   margin: 5px 0;
 }
 
-.foot-text{
+.foot-text {
   text-align: left;
   line-height: 1.6;
 }
 
-.footer-container{
+.footer-container {
   padding-left: 100px;
   padding-top: 70px;
 }
 
 /* style font */
-.foot-head{
-font-weight: bolder;
-text-align: left;
-text-decoration: underline;
+.foot-head {
+  font-weight: bolder;
+  text-align: left;
+  text-decoration: underline;
 }
 
-#foot{
+#foot {
   font-weight: bolder;
 }
 /* styling for footer */
