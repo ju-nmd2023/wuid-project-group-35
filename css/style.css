@@ -178,17 +178,7 @@ head #main-logo {
   height: 40vw;
   padding: 10px;
 }
-.fig-cap-category {
-  position: absolute;
-  font-weight: 500;
-  color: brown;
-  font-size: 25px;
-  text-decoration: none;
-  top: 3%;
-  left: 2%;
-  right: 4%;
-  padding: 10% ;
-}
+
 
 #picture-container{
   padding-top: 5%;
@@ -196,6 +186,18 @@ head #main-logo {
 
 #firstpage-category-container{
   display: flex;
+}
+/* Styling for text above category-scroll */
+.fig-cap-category {
+  position: absolute;
+  font-weight: 500;
+  color: brown;
+  font-size: 25px;
+  text-decoration: none;
+  top: 35%;
+  left: 2%;
+  right: 4%;
+  padding: 10% ;
 }
 
 /* CATEGORY PAGE */
@@ -420,6 +422,8 @@ button {
 .backtotop {
   margin-left: 40%;
   margin-right: 40%;
+  background-color: brown;
+  border-radius: 50%;
 }
 
 /*product page*/
@@ -522,7 +526,7 @@ footer {
   padding-bottom: 70px;
 }
 
-/* align text */
+/*Styling for text-alignment */
 .footer-column {
   flex: 1;
   text-align: center;
