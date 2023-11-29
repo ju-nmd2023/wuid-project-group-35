@@ -192,6 +192,9 @@ HEAD #main-logo {
 .picture {
   flex-direction: row;
   width: fit-content;
+  position: relative;
+  margin: 1px;
+  text-align: center;
 }
 .picture img {
   max-width: 30vw;
@@ -199,11 +202,19 @@ HEAD #main-logo {
   padding: 10px;
 }
 .fig-cap-category {
-  text-align: center;
+  position: absolute;
   font-weight: bolder;
   color: brown;
   font-size: xx-large;
   text-decoration: none;
+  top: 35%;
+  left: 2%;
+  right: 2%;
+  padding: 10% ;
+}
+
+#firstpage-category-container{
+  display: flex;
 }
 
 /* category-page */
