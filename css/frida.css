@@ -147,6 +147,14 @@ body {
     width: 30px;
   }
   
+  #picture-container{
+    padding-top: 5%;
+  }
+
+  .picture a {
+    text-decoration: none;
+  }
+
   /* Latest news-header */
   #headnews {
     font-size: x-large;
@@ -173,6 +181,7 @@ body {
   /* Latest news-big picture */
   #main-news-pic {
     width: 100%;
+    padding-top: 5%;
   }
   
   /* flexbox for horizontal scrolling on categories */
