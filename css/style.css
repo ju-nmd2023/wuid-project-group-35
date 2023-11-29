@@ -192,7 +192,7 @@ HEAD #main-logo {
 .picture img {
   max-width: 30vw;
   height: 40vw;
-  padding: none;
+  padding: 10px;
 }
 .fig-cap-category{
   text-align: center;
@@ -200,6 +200,7 @@ HEAD #main-logo {
   color: brown;
   font-size: xx-large;
   text-decoration: none;
+
 }
 
 /* product page*/
@@ -335,10 +336,8 @@ text-decoration: underline;
 #foot{
   font-weight: bolder;
 }
+
 /* styling for footer */
-
-
-
   .inspo-container img{
     flex-direction: row;
     max-width:30vw;
