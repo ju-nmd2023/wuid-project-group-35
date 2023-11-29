@@ -1,17 +1,43 @@
+/* Styling for overall-body*/
 body {
   margin: 0;
   display: grid;
   font-family: 'Inter', sans-serif;
 }
 
-/* Headbar */
-HEAD #main-logo {
+/* Styling for logo */
+head #main-logo {
   width: 50%;
   align-items: center;
   padding-right: 20vw;
   padding-top: 20px;
 }
 
+#main-logo {
+  width: 40%;
+  padding-top: 20px;
+  margin: 0 auto;
+  padding-left: 200px;
+  padding-right: none;
+}
+
+#image-container {
+  padding: none;
+}
+
+#image-container #flower-pic {
+  padding-top: 50px;
+  padding-right: 120px;
+  max-width: 120px;
+}
+
+#image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styling for headbar */
 #head-container {
   max-width: 100%;
   justify-content: flex-end;
@@ -22,9 +48,23 @@ HEAD #main-logo {
   padding: 5px;
 }
 
-
 #image-container {
   padding-left: 20%;
+}
+#head-container {
+  max-width: 100vw;
+  display: flex;
+  overflow-x: auto;
+  margin: 0%;
+}
+.sidemenu {
+  flex-direction: row;
+  max-width: 5vw;
+  padding: 5px;
+}
+
+.sidemenu-pic {
+  width: 30px;
 }
 
 /* SEARCHFIELD */
@@ -61,13 +101,6 @@ HEAD #main-logo {
   border: 1px;
 }
 
-/* Style the search icon inside the button */
-#searchicon {
-  width: 30px;
-  height: auto;
-  margin-right: 5px;
-}
-
 /* Styling for gap between serchfield and rest of icons */
 .sidemenu {
   margin-left: 10px;
@@ -83,10 +116,7 @@ HEAD #main-logo {
   display: flex;
 }
 
-.sidemenu img {
-  max-width: 4vw;
-}
-
+/* styling for mainmenu*/
 .navlist {
   display: flex;
   list-style: none;
@@ -103,68 +133,14 @@ HEAD #main-logo {
   color: black;
 }
 
-#searchfield {
-  position: absolute;
-  top: 4%;
-  left: 70%;
-  transform: translate(-40%, 50%);
-}
-
-#main-logo {
-  width: 40%;
-  padding-top: 20px;
-  margin: 0 auto;
-  padding-left: 200px;
-  padding-right: none;
-}
-
-#image-container {
-  padding: none;
-}
-
-#image-container #flower-pic {
-  padding-top: 50px;
-  padding-right: 120px;
-  max-width: 120px;
-}
-
-#image-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-#head-container {
-  max-width: 100vw;
-  display: flex;
-  overflow-x: auto;
-  margin: 0%;
-}
-.sidemenu {
-  flex-direction: row;
-  max-width: 5vw;
-  padding: 5px;
-}
-
-.sidemenu-pic {
-  width: 30px;
-}
-
-#picture-container{
-  padding-top: 5%;
-}
-
-.picture a {
-  text-decoration: none;
-}
-
-/* Latest news-header */
+/* styling for Latest news-header */
 #headnews {
   font-size: x-large;
   padding-left: 1%;
   padding-top: 5%;
 }
 
-/* flexbox for horizontal scrolling on news */
+/* stryling for flexbox-horizontal scrolling on news */
 #news-container {
   display: flex;
   overflow-x: auto;
@@ -179,13 +155,13 @@ HEAD #main-logo {
   padding: 10px;
 }
 
-/* Latest news-big picture */
+/*Styling-Latest news-big picture */
 #main-news-pic {
   width: 100%;
   padding-top: 10%;
 }
 
-/* flexbox for horizontal scrolling on categories */
+/* Styling for flexbox-horizontal scrolling on categories */
 #picture-container {
   display: flex;
   overflow-x: auto;
@@ -208,17 +184,22 @@ HEAD #main-logo {
   color: brown;
   font-size: 25px;
   text-decoration: none;
-  top: 35%;
+  top: 3%;
   left: 2%;
   right: 4%;
   padding: 10% ;
+}
+
+#picture-container{
+  padding-top: 5%;
 }
 
 #firstpage-category-container{
   display: flex;
 }
 
-/* category-page */
+/* CATEGORY PAGE */
+/* Styling for backgroundpicture */
 #background-pic{
   width: 100%;
   overflow: hidden;
@@ -226,6 +207,7 @@ HEAD #main-logo {
   opacity: 50%;
 }
 
+/* Styling for text above picture */
 .category-overlay{
   position: absolute;
   top: 70%;
@@ -244,9 +226,9 @@ HEAD #main-logo {
 }
 
 
-/* product page*/
+/* PRODUCT*/
 
-/*scroll ring pictures*/
+/*Styling for-scroll ring pictures*/
 .product-container {
   float: right;
   display: flex;
@@ -256,7 +238,7 @@ HEAD #main-logo {
   margin-right: 3rem;
 }
 
-/* Accessories-page*/
+/*Styling for-Accessories-page*/
 #front-accessories-container {
   width: 100%;
   text-align: center;
@@ -560,7 +542,7 @@ footer {
   padding-top: 70px;
 }
 
-/* style font */
+/*Styling for footer-font */
 .foot-head {
   font-weight: bolder;
   text-align: left;
@@ -570,4 +552,4 @@ footer {
 #foot {
   font-weight: bolder;
 }
-/* styling for footer */
+/* styling for footer finished*/
