@@ -2,6 +2,7 @@ body {
   margin: 0;
   display: grid;
 }
+
 /* Headbar */
 HEAD #main-logo {
   width: 50%;
@@ -24,52 +25,8 @@ HEAD #main-logo {
   padding-left: 20%;
 }
 
+
 /* searchbutton */
-#searchfield {
-  position: absolute;
-  top: 4%;
-  left: 70%;
-  transform: translate(-40%, 50%);
-}
-#main-logo {
-  width: 40%;
-  padding-top: 20px;
-  margin: 0 auto;
-  padding-left: 200px;
-  padding-right: none;
-}
-
-#image-container {
-  padding: none;
-}
-
-#image-container #flower-pic {
-  padding-top: 50px;
-  padding-right: 120px;
-  max-width: 120px;
-}
-
-#image-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-#head-container {
-  max-width: 100vw;
-  display: flex;
-  overflow-x: auto;
-  margin: 0%;
-}
-.sidemenu {
-  flex-direction: row;
-  max-width: 5vw;
-  padding: 5px;
-}
-
-.sidemenu-pic {
-  width: 30px;
-}
-
 /* SEARCHFIELD */
 /* Styling for the search container */
 .search-container {
@@ -146,12 +103,52 @@ HEAD #main-logo {
   color: black;
 }
 
-/*border - fix it on the other pages but stay on the last ones*/
-.navbar {
-  border-bottom: 2px solid black;
+#searchfield {
+  position: absolute;
+  top: 4%;
+  left: 70%;
+  transform: translate(-40%, 50%);
 }
-/**/
+#main-logo {
+  width: 40%;
+  padding-top: 20px;
+  margin: 0 auto;
+  padding-left: 200px;
+  padding-right: none;
+}
 
+#image-container {
+  padding: none;
+}
+
+#image-container #flower-pic {
+  padding-top: 50px;
+  padding-right: 120px;
+  max-width: 120px;
+}
+
+#image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#head-container {
+  max-width: 100vw;
+  display: flex;
+  overflow-x: auto;
+  margin: 0%;
+}
+.sidemenu {
+  flex-direction: row;
+  max-width: 5vw;
+  padding: 5px;
+}
+
+.sidemenu-pic {
+  width: 30px;
+}
+
+/* Latest news-header */
 #headnews {
   font-size: x-large;
   padding-left: 1%;
@@ -174,7 +171,7 @@ HEAD #main-logo {
   padding: 10px;
 }
 
-/* Main picture for latest news */
+/* Latest news-big picture */
 #main-news-pic {
   width: 100%;
 }
@@ -199,11 +196,9 @@ HEAD #main-logo {
   color: brown;
   font-size: xx-large;
   text-decoration: none;
-
 }
 
 /* Accessories-page*/
-
 #front-accessories-container {
   width: 100%;
   text-align: center;
@@ -266,7 +261,6 @@ div {
 }
 
 /* sort and filter section and styling*/
-
 .sortandfilter {
   display: flex;
   list-style: none;
@@ -301,10 +295,7 @@ div {
   line-height: 2.4;
 }
 
-/* styling for footer */
-footer {
-  padding: 20px;
-}
+/*PRODUCT PAGE-INFO PAGE OF A PRODUCT*/
 
 /* product page*/
 
@@ -345,17 +336,13 @@ footer {
   position: absolute;
 }
 
-footer {
-  background-color: gray;
-}
-
 .description-list li {
   display: inline-block;
   margin-left: 1rem;
 }
 
 
-/* cart-items*/
+/* SHOPPINGBAG PAGE*/
 
 .cart-img {
   width: 20%;
