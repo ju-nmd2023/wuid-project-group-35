@@ -317,17 +317,7 @@ footer {
   padding: 20px;
 }
 
-.footer-container {
-  display: flex;
-  justify-content: space-around;
-  padding-bottom: 70px;
-}
-
-/* align text */
-.footer-column {
-  flex: 1;
-  text-align: center;
-}
+/* product page*/
 
 .footer-column p {
   margin: 5px 0;
