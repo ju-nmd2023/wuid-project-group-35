@@ -419,6 +419,10 @@ button {
   margin-right: 20%;
 }
 
+#checkout-button{
+  padding-left: 50%;
+}
+
 .backtotop {
   margin-left: 40%;
   margin-right: 40%;
