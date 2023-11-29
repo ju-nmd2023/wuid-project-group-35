@@ -401,7 +401,7 @@ td a {
   max-width: 350px;
   text-align: center;
 }
-
+/*to checkout*/
 button {
   align-self: flex-start;
   padding: 1rem 2rem;
@@ -411,7 +411,7 @@ button {
   margin-left: 20%;
   margin-right: 20%;
 }
-
+/*to top*/
 .backtotop {
   margin-left: 40%;
   margin-right: 40%;
