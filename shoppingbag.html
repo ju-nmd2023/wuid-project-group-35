@@ -1,194 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>houseoflily</title> 
-    <link rel="stylesheet" href="css/style.css">
-  <script src="js/main.js"></script></head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>houseoflily</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/main.js"></script>
+  </head>
 
-<header></header>
+  <header>
+    <div id="head-container">
+      <div id="image-container">
+        <img
+          id="main-logo"
+          src="images/houseoflily.jpg"
+          alt="logotype for house of lily"
+        />
+        <img id="flower-pic" src="images/flower.jpeg" alt="logo of lily" />
+      </div>
 
-<div id="head-container">
-   
-  <div id="image-container">
-  <img id="main-logo" src="images/houseoflily.jpg" alt="logotype for house of lily">  
-  <img id="flower-pic" src="images/flower.jpeg" alt="logo of lily">
-  </div>
+      <!--Searchfield-->
+      <div class="search-container">
+        <form action="" class="search-bar">
+          <input id="fillin" type="text" placeholder="Search.." name="q" />
+          <button id="searchbutton" type="submit">
+            <img id="searchicon" src="images/search.png" alt="" />
+          </button>
+        </form>
+      </div>
 
-<!--Searchfield-->
-<div class="search-container">
-  <form action="" class="search-bar">
-    <input id="fillin" type="text" placeholder="Search.." name="q">
-    <button id="searchbutton" type="submit"><img id="searchicon" src="images/search.png" alt="">  </button>
-  </form>
-</div>
+      <div id="searchicon" class="sidemenu">
+        <img
+          class="sidemenu-pic"
+          src="images/profile.png"
+          alt="icon for profile"
+        />
+      </div>
 
+      <div class="sidemenu">
+        <img
+          class="sidemenu-pic"
+          src="images/heart.jpeg"
+          alt="icon for hearted items"
+        />
+      </div>
 
-<div id="searchicon" class="sidemenu">
-<img class="sidemenu-pic" src="images/profile.png" alt="icon for profile">
-</div>
+      <div class="sidemenu">
+        <img
+          class="sidemenu-pic"
+          src="images/shoppingbag.png"
+          alt="icon for shoppingbag"
+        />
+      </div>
+    </div>
+  </header>
 
-<div class="sidemenu">
-<img class="sidemenu-pic" src="images/heart.jpeg" alt="icon for hearted items">
-</div>
+  <nav class="navbar">
+    <!--Mainmenu start-->
+    <ul class="navlist">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#">News</a></li>
+      <li><a href="categories.html">Category</a></li>
+      <li><a href="#">Most popular</a></li>
+      <li><a href="#">Sale</a></li>
+    </ul>
+    <!--Mainmenu finish-->
+    <hr size="1" color="black" />
+  </nav>
 
-<div class="sidemenu">
-<img class="sidemenu-pic" src="images/shoppingbag.png" alt="icon for shoppingbag">
-</div>
-</div>
-</header>
+  <body>
+    <p class="shopping">Your Shoppingbag (2)</p>
 
-
-
-<nav class="navbar"> <!--Mainmenu start-->
-  <ul class="navlist">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="#">News</a></li>
-    <li><a href="categories.html">Category</a></li>
-    <li><a href="#">Most popular</a></li>
-    <li><a href="#">Sale</a></li>
-  </ul> <!--Mainmenu finish-->
-  <hr size="1" color="black">
-</nav>
-
-<body>
-  
-   <P class="shopping">Your Shoppingbag (2)</P>
-
-
-<!--cart items details-->
-<div class="cart-items">
-
-    <table>
+    <!--cart items details-->
+    <div class="cart-items">
+      <table>
         <tr>
-            <th>Products</th>
-            <th>Quantity</th>
-            <th>Subtotal</th>
+          <th>Products</th>
+          <th>Quantity</th>
+          <th>Subtotal</th>
         </tr>
         <tr>
-            <td>
-                <div class="cart-info">
-                    <img class="cart-img"  src="images/ring.jpeg" alt="cross ring">
-                    <div>
-                        <p>Cross Ring</p>
-                        <small>Size: One Size</small>
-                        <br>
-                     <small>Price: €32.00</small>
-                     <br>
-                     <a href="#">Remove</a>
-        
-                    </div>
-                </div>
-                <hr size="1" color="black">
-
-            </td>
-            <td><input type="number" value="1"></td>
-            <td>€32.00</td>
+          <td>
+            <div class="cart-info">
+              <img class="cart-img" src="images/ring.jpeg" alt="cross ring" />
+              <div>
+                <p>Cross Ring</p>
+                <small>Size: One Size</small>
+                <br />
+                <small>Price: €32.00</small>
+                <br />
+                <a href="#">Remove</a>
+              </div>
+            </div>
+            <hr size="1" color="black" />
+          </td>
+          <td><input type="number" value="1" /></td>
+          <td>€32.00</td>
         </tr>
 
         <tr>
-            <td>
-                <div class="cart-info">
-                    <img class="cart-img"  src="images/heals-silver.jpeg" alt="silver heels">
-                    <div>
-                        <p>Silver Heels</p>
-                        <small>Size: 38</small>
-                        <br>
-                     <small>Price: €714.00</small>
-                     <br>
-                     <a href="#">Remove</a>
-        
-                    </div>
-                </div>
-                <hr size="1" color="black">
-
-            </td>
-            <td><input type="number" value="1"></td>
-            <td>€714.00</td>
+          <td>
+            <div class="cart-info">
+              <img
+                class="cart-img"
+                src="images/heals-silver.jpeg"
+                alt="silver heels"
+              />
+              <div>
+                <p>Silver Heels</p>
+                <small>Size: 38</small>
+                <br />
+                <small>Price: €714.00</small>
+                <br />
+                <a href="#">Remove</a>
+              </div>
+            </div>
+            <hr size="1" color="black" />
+          </td>
+          <td><input type="number" value="1" /></td>
+          <td>€714.00</td>
         </tr>
+      </table>
 
-    </table>
-
-<div class="total-price">
-
-    <table>
-        <tr>
+      <div class="total-price">
+        <table>
+          <tr>
             <td>Subtotal</td>
             <td>€746.00</td>
-        </tr>
-        <tr>
+          </tr>
+          <tr>
             <td>Shipping</td>
             <td>€15.00</td>
-        </tr>
-        <tr>
+          </tr>
+          <tr>
             <td>Total</td>
             <td>€761.00</td>
-        </tr>
-    
-   </table>
-</div>
-</div>
-
-<button>To Checkout</button>
-
-<p class="shopping">You might also like</p>
-
-  <!--last section-categories pictures-->
-  <div id="picture-container">
-    <figure class="picture">
-      <img src="images/white-skirt-long.jpeg" alt="white skirt">
-    </figure>
-    <figure class="picture">
-      <img src="images/stone-bag.jpeg" alt="stone bag">
-    </figure>
-    <figure class="picture">
-      <img src="images/black-dress.jpeg" alt="black dress">
-    </figure>
-    <figure class="picture">
-      <img src="images/heels-black.jpeg" alt="black heels">
-    </figure>
-    <figure class="picture">
-      <img src="images/suitpants-black.jpeg" alt="black pants">
-    </figure>
-  </div>
-</body>
-
-<p>
-</p>
-<footer >
-  <div class="footer-container">
-    <div class="footer-column">
-      <p class="foot-head">My pages</p>
-      <p class="foot-text">Orders</p>
-      <p class="foot-text">My account</p>
-      <p class="foot-text">Privacy policy </p>
-      <p class="foot-text">Cookie policy</p>
-
+          </tr>
+        </table>
+      </div>
     </div>
-    
-    <div class="footer-column">
-      <p class="foot-head" >About us</p>
-      <p class="foot-text">About</p>
-      <p class="foot-text">Sustainability</p>
-      <p class="foot-text">Contact </p>
-      <p class="foot-text">Magazine </p>
-      <p class="foot-text">Customer Reviews </p>
 
+    <button>To Checkout</button>
+    <p class="shopping">You might also like</p>
+
+    <!--last section-categories pictures-->
+    <div id="picture-container">
+      <figure class="picture">
+        <img src="images/white-skirt-long.jpeg" alt="white skirt" />
+      </figure>
+      <figure class="picture">
+        <img src="images/stone-bag.jpeg" alt="stone bag" />
+      </figure>
+      <figure class="picture">
+        <img src="images/black-dress.jpeg" alt="black dress" />
+      </figure>
+      <figure class="picture">
+        <img src="images/heels-black.jpeg" alt="black heels" />
+      </figure>
+      <figure class="picture">
+        <img src="images/suitpants-black.jpeg" alt="black pants" />
+      </figure>
     </div>
-    
-    <div class="footer-column">
-      <p class="foot-head">Costumer care</p>
-      <p class="foot-text">Help</p>
-      <p class="foot-text">Return policy</p>
-      <p class="foot-text">Terms and conditions</p>
-      <p class="foot-text">FAQ</p>
-      <p class="foot-text">Shipping Information</p>
+  </body>
+  <button onclick="toTop()" class="backtotop">Back to Top</button>
 
+  <p></p>
+  <footer>
+    <div class="footer-container">
+      <div class="footer-column">
+        <p class="foot-head">My pages</p>
+        <p class="foot-text">Orders</p>
+        <p class="foot-text">My account</p>
+        <p class="foot-text">Privacy policy</p>
+        <p class="foot-text">Cookie policy</p>
+      </div>
+
+      <div class="footer-column">
+        <p class="foot-head">About us</p>
+        <p class="foot-text">About</p>
+        <p class="foot-text">Sustainability</p>
+        <p class="foot-text">Contact</p>
+        <p class="foot-text">Magazine</p>
+        <p class="foot-text">Customer Reviews</p>
+      </div>
+
+      <div class="footer-column">
+        <p class="foot-head">Costumer care</p>
+        <p class="foot-text">Help</p>
+        <p class="foot-text">Return policy</p>
+        <p class="foot-text">Terms and conditions</p>
+        <p class="foot-text">FAQ</p>
+        <p class="foot-text">Shipping Information</p>
+      </div>
     </div>
-  </div>
-  <p id="foot" >© House of Lily
-  </p> 
-</footer>
-
+    <p id="foot">© House of Lily</p>
+  </footer>
 </html>
