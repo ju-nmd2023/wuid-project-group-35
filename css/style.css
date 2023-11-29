@@ -127,6 +127,10 @@ div {
 
 /* SHOPPINGBAG PAGE*/
 
+.shopping {
+  padding-left: 3%;
+}
+
 .cart-img {
   width: 30%;
   margin-right: 10px;
