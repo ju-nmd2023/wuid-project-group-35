@@ -199,7 +199,6 @@ HEAD #main-logo {
   color: brown;
   font-size: xx-large;
   text-decoration: none;
-
 }
 
 /* product page*/
@@ -346,23 +345,22 @@ footer {
 }
 
 /* styling for footer */
-  .inspo-container img{
-    flex-direction: row;
-    max-width:30vw;
-    height: 40vw;
-    padding: 10px;
-  }
-   
-  .text-above{
-    position: absolute;
-    
-  }
-   .ring-descriptions{
-    border: 2px solid black;
-    padding: 10px;
-    display: inline-block;
-    width: 30%;
-   }
+.inspo-container img {
+  flex-direction: row;
+  max-width: 30vw;
+  height: 40vw;
+  padding: 10px;
+}
+
+.text-above {
+  position: absolute;
+}
+.ring-descriptions {
+  border: 2px solid black;
+  padding: 10px;
+  display: inline-block;
+  width: 30%;
+}
 
 .inspo-container img {
   flex-direction: row;
@@ -442,13 +440,14 @@ footer {
 /* cart-items*/
 
 .cart-img {
-  width: 20%;
+  width: 30%;
   margin-right: 10px;
 }
 
 .cart-items {
   margin: 80px auto;
 }
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -497,6 +496,6 @@ button {
   border-radius: 0px;
   border: none;
   background: #d9d9d9;
-  margin-left: 86%;
-  margin-top: 0%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
