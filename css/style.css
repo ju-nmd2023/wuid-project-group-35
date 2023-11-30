@@ -52,7 +52,7 @@ head #main-logo {
   padding-top: 50px;
   padding-right: 120px;
   max-width: 120px;
-  z-index: 2; /* Sätt z-index högre så att flower-pic är ovanpå main-logo */
+  z-index: 2; /* Index to make the flower-pic appear abowe the house-of-lily-logo */
 
 }
 
