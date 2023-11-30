@@ -403,9 +403,15 @@ padding-left: 1%;
    
 }
 
+/*PRODUCT PAGE-INFO PAGE OF A PRODUCT*/
+/*Styling for-scroll ring pictures*/
 
 
-
+/* product page*/
+.description-list li {
+  display: inline-block;
+  margin-left: 1rem;
+}
 
 .border-wrap {
   border: 2px solid black;
