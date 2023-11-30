@@ -202,6 +202,22 @@ HEAD #main-logo {
   text-decoration: none;
 }
 
+.category-overlay{
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  font-size: 50px;
+  text-align: center;
+}
+
+.link-list{
+  list-style: none;
+}
+.category{
+  color: black;
+  text-decoration: none;
+  line-height: 2.4;
+}
 /* product page*/
 
   /*scroll ring pictures*/
@@ -228,7 +244,7 @@ HEAD #main-logo {
 }
 
 #front-accessories {
-  opacity: 65%;
+ opacity: 80%;
   width: 100%;
   height: auto;
   display: block;
@@ -236,16 +252,12 @@ HEAD #main-logo {
 
 .text-overlay {
   position: absolute;
-  top: 16vw;
-  left: 25vw;
+  top: 13vw;
+  left: 27vw;
   color: white;
   font-size: 6rem;
   font-weight: bold;
   text-align: center;
-}
-
-.sortandfilter {
-display: flex;
 }
 
 #accesories-container {
@@ -268,17 +280,15 @@ display: flex;
   display: block;
 }
 
-div{
-  margin-bottom: 0;
-}
 
-
+/* accessories headline*/
 
 .h1{
 margin-bottom: 0%;
 text-align:left;
 padding-left: 1%;
 }
+
 
 /* sort and filter section and styling*/
 
@@ -299,21 +309,58 @@ padding-left: 1%;
   color: black;
 }
 
-.category-overlay{
-  position: absolute;
-  top: 40%;
-  left: 40%;
-  font-size: 50px;
+
+/*  LAST PAGE  */
+
+#text-lastpage{
   text-align: center;
+ 
 }
 
-.link-list{
-  list-style: none;
+#checkout-flower{
+  text-align: center;
+  margin-top: 10%;
 }
-.category{
-  color: black;
-  text-decoration: none;
-  line-height: 2.4;
+
+/* rectangle "button" */
+.rectangle {
+  width: 220px; 
+  height: 50px; 
+  background-color:rgba(155, 138, 122, 0.994);
+  color: black; 
+  text-align: center; 
+  line-height: 20px; 
+  
+}
+
+.rectangle-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+}
+
+/* Horizontal scrolling for last page*/
+#lastpage-picture {
+  display: flex;
+  overflow-x: auto;
+}
+.last-pictures {
+  flex-direction: row;
+  width: fit-content;
+}
+.last-pictures img {
+  max-width: 30vw;
+  height: 40vw;
+  padding: none;
+}
+
+/* add something to your order-text */
+#add-order{
+  margin-left: 3%;
+  font-weight: bold;
+  margin-top: 10%;
+   
 }
 
 
@@ -358,6 +405,7 @@ text-decoration: underline;
 #foot{
   font-weight: bolder;
 }
+
 /* styling for footer */
 
 
