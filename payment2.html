@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>houseoflily</title> 
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+
+<header>
+  <!--Logotype-House of lily+flower-->
+   <div id="head-container">
+      <div id="image-container">
+        <img id="main-logo" src="images/houseoflily.jpg" alt="logotype for house of lily">  
+        <img id="flower-pic" src="images/flower.jpeg" alt="logo of lily">
+      </div>
+    
+  <!--Searchfield-->
+      <div class="search-container">
+        <form action="" class="search-bar">
+          <input id="fillin" type="text" placeholder="Search.." name="q">
+          <button id="searchbutton" type="submit">
+        </form>
+      </div>
+    
+  <!--Menu-top-icons-->
+      <div class="sidemenu">
+        <img class="sidemenu-pic" src="images/profile.png" alt="icon for profile">
+      </div>
+    
+      <div class="sidemenu">
+        <img class="sidemenu-pic" src="images/heart.png" alt="icon for hearted items">
+      </div>
+  
+      <a href="shoppingbag.html">
+        <div class="sidemenu">
+         <img class="sidemenu-pic" src="images/shoppingbag.png" alt="icon for shoppingbag">
+        </div>
+      </a>
+   </div>
+
+
+<!--Mainmenu start-->
+ <nav class="navbar"> 
+  <ul class="navlist">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="#">News</a></li>
+    <li><a href="categories.html">Category</a></li>
+    <li><a href="#">Most popular</a></li>
+    <li><a href="#">Sale</a></li>
+  </ul> 
+ </nav>
+ <!--Mainmenu finish-->
+</header>
+
+  <body>
+
+    <div class="cart-items">
+        <table>
+          <tr>
+            <th>Products</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+          </tr>
+          <tr>
+            <td>
+              <div class="cart-checkout">
+                <img class="cart-img" src="images/ring.jpeg" alt="cross ring" />
+                <div>
+                  <p>Cross Ring</p>
+                  <small>Size: One Size</small>
+                  <br />
+                  <small>Price: €32.00</small>
+                  <br />
+                  <a href="#">Remove</a>
+                </div>
+              </div>
+              <hr size="1" color="black" />
+            </td>
+            <td><input type="number" value="1" /></td>
+            <td>€32.00</td>
+          </tr>
+       
+          <tr>
+            <td>
+              <div class="cart-checkout">
+                <img
+                  class="cart-img"
+                  src="images/heals-silver.jpeg"
+                  alt="silver heels"
+                />
+                <div>
+                  <p>Silver Heels</p>
+                  <small>Size: 38</small>
+                  <br />
+                  <small>Price: €714.00</small>
+                  <br />
+                  <a href="#">Remove</a>
+                </div>
+              </div>
+              <hr size="1" color="black" />
+            </td>
+            <td><input type="number" value="1" /></td>
+            <td>€714.00</td>
+          </tr>
+        </table>
+
+
+
+
+    <div class="container2">
+<form action="">
+
+    <div class="row">
+        <div class="col">
+<h3 class="title">Billing address</h3>
+
+<div class="inputBox">
+<span>full name:</span>
+<input type="text" placeholder="maria brown">
+</div>
+
+<div class="inputBox">
+    <span>email:</span>
+    <input type="text" placeholder="example@example.com">
+    </div>
+
+    <div class="inputBox">
+        <span>address:</span>
+        <input type="text" placeholder="street - room - locality">
+        </div>
+
+        <div class="inputBox">
+            <span>city:</span>
+            <input type="text" placeholder="stockholm">
+            </div>
+
+<div class="flex">
+    <div class="inputBox">
+        <span>state:</span>
+        <input type="text" placeholder="sweden">
+        </div>
+
+        <div class="inputBox">
+            <span>zip code:</span>
+            <input type="text" placeholder="123 456">
+            </div>
+
+</div>
+
+
+        </div>
+
+
+        <div class="col">
+            <h3 class="title">Payment</h3>
+
+            <div class="inputBox">
+                <span>card accepted:</span>
+                <img src="images/mastercard-logo.png" alt="mastercard">
+                <img src="images/klarna.png" alt="klarna">
+                </div>
+
+
+            
+            <div class="inputBox">
+            <span>name on card:</span>
+            <input type="text" placeholder="mrs.maria brown">
+            </div>
+            
+            
+                <div class="inputBox">
+                    <span>credit card number:</span>
+                    <input type="number" placeholder="1111-2222-3333-4444">
+                    </div>
+            
+                    <div class="inputBox">
+                        <span>exp month:</span>
+                        <input type="text" placeholder="janurary">
+                        </div>
+            
+            <div class="flex">
+                <div class="inputBox">
+                    <span>exp year:</span>
+                    <input type="text" placeholder="2026">
+                    </div>
+            
+                    <div class="inputBox">
+                        <span>CVV:</span>
+                        <input type="text" placeholder="1234">
+                        </div>
+            
+            </div>
+            
+            
+                    </div>
+
+</div>
+
+
+
+
+<input type="submit" value="proceed to checkout" class="submit">
+
+
+</form>
+
+
+  </div>
+
+
+  </body>
+</html>
