@@ -2,7 +2,7 @@
 body {
   margin: 0;
   display: grid;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 /* Styling for logo */
@@ -20,6 +20,7 @@ head #main-logo {
   padding-left: 200px;
   padding-right: none;
 }
+
 
 #image-container {
   padding: none;
@@ -178,15 +179,6 @@ head #main-logo {
   height: 40vw;
   padding: 10px;
 }
-
-#picture-container {
-  padding-top: 5%;
-}
-
-#firstpage-category-container {
-  display: flex;
-}
-/* Styling for text above category-scroll */
 .fig-cap-category {
   position: absolute;
   font-weight: 500;
@@ -196,12 +188,30 @@ head #main-logo {
   top: 35%;
   left: 2%;
   right: 4%;
-  padding: 10%;
+  padding: 10% ;
 }
 
+#picture-container{
+  padding-top: 5%;
+}
+
+#firstpage-category-container{
+  display: flex;
+}
+
+/* CATEGORY PAGE */
+/* Styling for backgroundpicture */
+#background-pic{
+  width: 100%;
+  overflow: hidden;
+  align-items: center;
+  opacity: 50%;
+}
+
+/* Styling for text above picture */
 .category-overlay{
   position: absolute;
-  top: 40%;
+  top: 35%;
   left: 40%;
   font-size: 50px;
   text-align: center;
@@ -215,25 +225,7 @@ head #main-logo {
   text-decoration: none;
   line-height: 2.4;
 }
-/* product page*/
 
-/* Styling for text above picture */
-.category-overlay {
-  position: absolute;
-  top: 70%;
-  left: 40%;
-  font-size: 50px;
-  text-align: center;
-}
-
-.link-list {
-  list-style: none;
-}
-.category {
-  color: black;
-  text-decoration: none;
-  line-height: 2.4;
-}
 
 /* PRODUCT*/
 
@@ -328,7 +320,6 @@ padding-left: 1%;
 
 
 /*  LAST PAGE  */
-
 #text-lastpage{
   text-align: center;
  
@@ -474,7 +465,6 @@ td a {
 }
 
 /*product page*/
-
 .description-list li {
   display: inline-block;
   margin-left: 1rem;
@@ -490,13 +480,9 @@ td a {
 }
 
 #heart-productpage {
-  max-width: 5vw;
-  padding: 5px;
-  border: 2px solid black;
-  padding: 5px;
   display: inline-block;
-  width: 30%;
-  height: 15%;
+  width: 30px;
+  padding-right: 70rem;
 }
 
 #ring-size {
@@ -527,19 +513,19 @@ td a {
   padding: 10px;
 }
 
-.product-container {
+.product-container{
   float: right;
   display: flex;
   overflow-x: auto;
   white-space: nowrap;
   width: 50%;
-  margin-right: 3rem;
 }
 .product-container img {
   max-width: 100%;
   height: auto;
   display: inline-block;
 }
+
 #product-description {
   color: black;
 }
@@ -605,9 +591,6 @@ footer {
 }
 
 /* styling for footer */
-
-
-
   .inspo-container img{
     flex-direction: row;
     max-width:30vw;
