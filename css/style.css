@@ -316,7 +316,6 @@ padding-left: 1%;
 
 
 /*  LAST PAGE  */
-
 #text-lastpage{
   text-align: center;
  
@@ -462,7 +461,6 @@ td a {
 }
 
 /*product page*/
-
 .description-list li {
   display: inline-block;
   margin-left: 1rem;
@@ -589,9 +587,6 @@ footer {
 }
 
 /* styling for footer */
-
-
-
   .inspo-container img{
     flex-direction: row;
     max-width:30vw;
