@@ -30,15 +30,35 @@ head #main-logo {
   width: 40%;
   padding-top: 20px;
   margin: 0 auto;
-  opacity: 0; /* Animation for the logo to pop in-start with opacity 0 */
-  transform: translateX(40%); /*logo starts from the right*/
   animation: fadeInFromRight 1s ease forwards; /*fades in fron right to its position*/
 }
 
+@keyframes spinAndLand {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%) rotate(0deg);
+  }
+  50% {
+    opacity: 0,5;
+    transform: translateX(0) rotate(10deg);
+  }
+  
+  100% {
+    opacity: 1;
+    transform: translateX(0) rotate(0deg);
+  }
+}
+
+
 @keyframes fadeInFromRight {
-  to {
-    opacity: 1; /*end up with full opacity*/
-    transform: translateX(0); /*at the end of the animation-it should end at the same position*/
+  0% {
+    opacity: 0;
+    transform: translateX(40%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
   }
 }
  /*this part of the code is inspired by help from chatGPT*/
@@ -52,6 +72,7 @@ head #main-logo {
   padding-top: 50px;
   padding-right: 120px;
   max-width: 120px;
+  animation: spinAndLand 1.5s ease forwards;;
   z-index: 2; /* Index to make the flower-pic appear abowe the house-of-lily-logo */
 
 }
