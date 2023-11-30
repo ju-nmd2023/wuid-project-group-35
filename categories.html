@@ -6,76 +6,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>houseoflily</title> 
     <link rel="stylesheet" href="css/style.css">
-  <script src="js/main.js"></script></head>
+    <script src="js/main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
 
-
-
-<div id="head-container">
-   
-  <div id="image-container">
-  <img id="main-logo" src="images/houseoflily.jpg" alt="logotype for house of lily">  
-  <img id="flower-pic" src="images/flower.jpeg" alt="logo of lily">
-  </div>
-
+<header>
+<!--Logotype-House of lily+flower-->
+ <div id="head-container">
+    <div id="image-container">
+      <img id="main-logo" src="images/houseoflily.jpg" alt="logotype for house of lily">  
+      <img id="flower-pic" src="images/flower.jpeg" alt="logo of lily">
+    </div>
+  
 <!--Searchfield-->
-<div class="search-container">
-  <form action="" class="search-bar">
-    <input id="fillin" type="text" placeholder="Search.." name="q">
-    <button id="searchbutton" type="submit"><img id="searchicon" src="images/search.png" alt="">  </button>
-  </form>
-</div>
+    <div class="search-container">
+      <form action="" class="search-bar">
+        <input id="fillin" type="text" placeholder="Search.." name="q">
+        <button id="searchbutton" type="submit">
+      </form>
+    </div>
+  
+<!--Menu-top-icons-->
+    <div class="sidemenu">
+      <img class="sidemenu-pic" src="images/profile.png" alt="icon for profile">
+    </div>
+  
+    <div class="sidemenu">
+      <img class="sidemenu-pic" src="images/heart.jpeg" alt="icon for hearted items">
+    </div>
 
-
-<div id="searchicon" class="sidemenu">
-<img class="sidemenu-pic" src="images/profile.png" alt="icon for profile">
-</div>
-
-<div class="sidemenu">
-<img class="sidemenu-pic" src="images/heart.jpeg" alt="icon for hearted items">
-</div>
-
-<div class="sidemenu">
-<img class="sidemenu-pic" src="images/shoppingbag.png" alt="icon for shoppingbag">
-</div>
-</div>
+    <a href="shoppingbag.html">
+      <div class="sidemenu">
+       <img class="sidemenu-pic" src="images/shoppingbag.png" alt="icon for shoppingbag">
+      </div>
+    </a>
+ </div>
 </header>
 
-
-
-<nav class="navbar"> <!--Mainmenu start-->
+<!--Mainmenu start-->
+<nav class="navbar"> 
   <ul class="navlist">
     <li><a href="index.html">Home</a></li>
     <li><a href="#">News</a></li>
     <li><a href="categories.html">Category</a></li>
     <li><a href="#">Most popular</a></li>
     <li><a href="#">Sale</a></li>
-  </ul> <!--Mainmenu finish-->
+  </ul> 
+<!--Mainmenu finish-->
+</header>
 
 <body>
-  <div id="categories-container">
-<img id="background-pic" src="images/girl-in-red-dress.jpeg" alt="girl posing in red dress">
-<div class="category-overlay">   
-  <ul class="link-list">
-  <li><a class="category" href="#">Dresses</a></li>
-  <li><a class="category" href="#">Tops</a></li>
-  <li><a class="category" href="#">Jackets</a></li>
-  <li><a class="category" href="#">Sweatshirts</a></li>
-  <li><a class="category" href="#">Blouses</a></li>
-  <li><a class="category" href="#">Skirts</a></li>
-  <li><a class="category" href="#">Jeans</a></li>
-  <li><a class="category" href="#">Trousers</a></li>
-  <li><a class="category" href="#">Shorts</a></li>
-  <li><a class="category" href="#">Shoes</a></li>
-  <li><a class="category" href="#">Sets</a></li>
-  <li><a class="category" href="#">Lingerier</a></li>
-  <li><a class="category" href="accessories.html">Accessories</a></li>
-  </ul> </div>
-</div>
+<!--Backgound picture with categories above-->
+ <div id="categories-container">
+    <img id="background-pic" src="images/girl-in-red-dress.jpeg" alt="girl posing in red dress">
+      <div class="category-overlay">   
+        <ul class="link-list">
+          <li><a class="category" href="#">Dresses</a></li>
+          <li><a class="category" href="#">Tops</a></li>
+          <li><a class="category" href="#">Jackets</a></li>
+          <li><a class="category" href="#">Sweatshirts</a></li>
+          <li><a class="category" href="#">Blouses</a></li>
+          <li><a class="category" href="#">Skirts</a></li>
+          <li><a class="category" href="#">Jeans</a></li>
+          <li><a class="category" href="#">Trousers</a></li>
+          <li><a class="category" href="#">Shorts</a></li>
+          <li><a class="category" href="#">Shoes</a></li>
+          <li><a class="category" href="#">Sets</a></li>
+          <li><a class="category" href="#">Lingerier</a></li>
+          <li><a class="category" href="accessories.html">Accessories</a></li>
+        </ul> 
+      </div>
+ </div>
 
+ <!--Back to top button-->
+ <button onclick="toTop()" class="backtotop">Back to Top</button>
+ <p>
+ </p>
 
-
-</body>
-<footer >
+<!--Footer-->
+<footer>
   <div class="footer-container">
     <div class="footer-column">
       <p class="foot-head">My pages</p>
@@ -83,7 +94,6 @@
       <p class="foot-text">My account</p>
       <p class="foot-text">Privacy policy </p>
       <p class="foot-text">Cookie policy</p>
-
     </div>
     
     <div class="footer-column">
@@ -93,7 +103,6 @@
       <p class="foot-text">Contact </p>
       <p class="foot-text">Magazine </p>
       <p class="foot-text">Customer Reviews </p>
-
     </div>
     
     <div class="footer-column">
@@ -103,11 +112,11 @@
       <p class="foot-text">Terms and conditions</p>
       <p class="foot-text">FAQ</p>
       <p class="foot-text">Shipping Information</p>
-
     </div>
   </div>
-  <p id="foot" >© House of Lily
-  </p> 
+   <p id="foot">
+    © House of Lily
+   </p> 
 </footer>
-
+</body>
 </html>
