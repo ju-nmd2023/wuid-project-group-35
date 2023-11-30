@@ -295,7 +295,7 @@ head #main-logo {
   position: absolute;
   top: 13vw;
   left: 26vw;
-  color: white;
+  color: rgb(212, 14, 14);
   font-size: 6rem;
   font-weight: bold;
   text-align: center;
