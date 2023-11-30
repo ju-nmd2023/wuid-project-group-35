@@ -732,6 +732,13 @@ footer {
     height: 40vw;
     padding: 10px;
   }
+
+  /*Responsiveness for footer*/
+@media screen and (max-width:570px) {
+  .footer-column, .footer-container {
+    flex-direction: column;
+    }
+}
    
   .text-above{
     position: absolute;
