@@ -25,6 +25,7 @@ head #main-logo {
   overflow: hidden;
 }
 
+ /*this part of the code is inspired by help from chatGPT*/
 #main-logo {
   width: 40%;
   padding-top: 20px;
@@ -40,6 +41,8 @@ head #main-logo {
     transform: translateX(0); /*at the end of the animation-it should end at the same position*/
   }
 }
+ /*this part of the code is inspired by help from chatGPT*/
+
 
 #image-container {
   padding: none;
