@@ -407,7 +407,7 @@ td a {
   text-align: center;
 }
 /*to checkout*/
-button {
+.tocheckout {
   align-self: flex-start;
   padding: 1rem 2rem;
   border-radius: 0px;
