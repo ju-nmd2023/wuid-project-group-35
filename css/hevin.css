@@ -6,7 +6,8 @@
     overflow-x: auto;
     white-space: nowrap;
     width: 50%;
-    margin-right: 3rem;
+    margin-right: 5rem;
+    margin-left: 3rem;
   }
   
   /* product page*/
@@ -20,7 +21,7 @@
   }
   
   .border-wrap {
-    border: 2px solid black;
+    border: 1px solid black;
     padding: 10px;
     display: inline-block;
     width: 70%;
@@ -35,14 +36,13 @@
     border: 2px solid black;
     padding: 5px;
     display: inline-block;
-    width: 30%;
-    height: 15%;
+    height: 30px;
+    width: 30px;
   }
   #ring-size {
     border: 2px solid black;
     padding: 10px;
     display: inline-block;
-    width: 70%;
   }
   
   #BUY {
@@ -95,7 +95,7 @@
   }
   
   .ring-descriptions {
-    border: 2px solid black;
+    border: 1px solid black;
     padding: 10px;
     display: inline-block;
     width: 30%;
