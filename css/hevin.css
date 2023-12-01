@@ -31,14 +31,12 @@
   
   
   #heart-productpage {
-    max-width: 5vw;
-    padding: 5px;
     border: 2px solid black;
     padding: 5px;
-    display: inline-block;
     height: 30px;
     width: 30px;
   }
+  
   #ring-size {
     border: 2px solid black;
     padding: 10px;
@@ -99,4 +97,17 @@
     padding: 10px;
     display: inline-block;
     width: 30%;
+  }
+
+  #brand-name{
+    padding-left: 3rem;
+  }
+
+  #elevate-text{
+    padding-left: 2rem;
+  }
+
+  #complete-look{
+    padding-left: 1rem;
+    padding-top: 3rem;
   }

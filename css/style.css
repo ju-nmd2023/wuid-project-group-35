@@ -270,6 +270,25 @@ head #main-logo {
 
 /* ACCESSORIES */
 
+@media screen and (max-width: 480px) {
+  header {
+    flex-direction: column;
+    align-items: start;
+  }
+}
+
+@media screen and (min-device-width: 480px) {
+  #accesories-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 620px) {
+  #accesories-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
 /*Styling for-Accessories-page*/
 #front-accessories-container {
   width: 100%;
