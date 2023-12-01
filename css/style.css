@@ -548,9 +548,15 @@ td a {
   padding: 1rem 2rem;
   border-radius: 0px;
   border: none;
-  background: #d9d9d9;
+  background: black;
+  color: #fff;
   margin-left: 74%;
 }
+
+.tocheckout:hover {
+  background: gray;
+}
+
 /*to top*/
 .backtotop {
   margin-left: 40%;
