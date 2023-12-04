@@ -26,7 +26,6 @@
   #ring-size {
     border: 2px solid black;
     padding: 10px;
-    display: inline-block;
   }
   
  .buy-button{
@@ -109,13 +108,7 @@
   .refined-simple{
     margin-top: 20%;
   }
-@media screen and (max-width: 1240px){
-  .first-container{
-    grid-template-columns: 1fr 1fr;
-  }
-}
-@media screen and (max-width: 124px){
-  .inspo-container{
-    grid-template-rows: 1fr 1fr;
-  }
-}
+
+  /*responsive design*/
+
+
