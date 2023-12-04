@@ -7,7 +7,6 @@ body {
   margin: 0;
   display: grid;
   font-family: "Inter", sans-serif;
-  display: inline-block;
 }
 
 /* Styling for logo */
@@ -24,7 +23,6 @@ head #main-logo {
   margin: 0 auto;
   padding-left: 200px;
   padding-right: none;
-  display: inline-block;
 }
 
 #image-container {
