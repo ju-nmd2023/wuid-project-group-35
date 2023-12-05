@@ -225,15 +225,15 @@ head #main-logo {
   height: 40vw;
   padding: 10px;
 }
-.fig-cap-category {
+.figcap-category {
   position: absolute;
   font-weight: 500;
   color: brown;
-  font-size: 25px;
+  font-size: 40px;
   text-decoration: none;
   top: 35%;
-  right: 27%;
-  left: 1%;
+  right: 0%;
+  left: 0%;
   padding: 10%;
 }
 
@@ -245,6 +245,24 @@ head #main-logo {
   display: flex;
 }
 
+/*Responsiveness for text-category container*/
+@media screen and (max-width:910px) {
+  ul.link-list, .figcap-category {
+    font-size: 30px ;    
+  }
+}
+
+@media screen and (max-width:660px) {
+  ul.link-list, .figcap-category {
+    font-size: 20px ;    
+  }
+}
+
+@media screen and (max-width:440px) {
+  ul.link-list, .figcap-category {
+    font-size: 10px ;    
+  }
+}
 /* CATEGORY PAGE */
 /* Styling for backgroundpicture */
 #background-pic {
@@ -594,6 +612,18 @@ td a {
   height: 100px;
 }
 
+@media screen and (max-width:750px) {
+  .backtotop {
+    right: 35%;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .backtotop {
+    right: 25%;
+  }
+}
+
 /* PAYMENT PAGE */
 .choose-delivery {
   background-color: black;
@@ -919,14 +949,7 @@ footer {
     font-size: 15px;
   }
 }
-/*Responsiveness for text-category container*/
-@media screen and (min-width:200px) {
-  ul.link-list, .fig-cap-category {
-    position: absolute;
-    margin-top: 170px;
-    font-size: small;    
-  }
-}
+
 
 @media screen and (min-width:440px) {
   ul.link-list, .fig-cap-category {
