@@ -258,7 +258,7 @@ head #main-logo {
 .category-overlay {
   position: absolute;
   top: 35%;
-  left: 40%;
+  left: 30%;
   font-size: 50px;
   text-align: center;
 }
@@ -891,25 +891,67 @@ footer {
   }
 }
   /*Responsiveness for footer*/
-  @media screen and (max-width:570px) {
+  @media screen and (max-width:440px) {
     .footer-column, .footer-container {
       flex-direction: column;
+      font-size: 10px;
+      padding: 10px;
       }
   }
+
+  @media screen and (max-width:800px) {
+    .footer-column, .footer-container {
+      flex-direction: ;
+      font-size: 10px;
+      padding: 10px;
+      }
+  }
+
+
 /*responsiveness for mainmenu*/
 @media screen and (max-width:440px) {
   ul {
     flex-direction: column;
   }
 }
-@media screen and (max-width:615px) {
+@media screen and (min-width:615px) {
   ul {
-    font-size: 11px;
+    font-size: 15px;
   }
 }
 /*Responsiveness for text-category container*/
-@media screen and (max-width:570px) {
-  .fig-cap-category {
-    font-size: small;
+@media screen and (min-width:200px) {
+  ul.link-list, .fig-cap-category {
+    position: absolute;
+    margin-top: 170px;
+    font-size: small;    
   }
 }
+
+@media screen and (min-width:440px) {
+  ul.link-list, .fig-cap-category {
+    position: absolute;
+    margin-top: 140px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width:700px) {
+  ul.link-list, .fig-cap-category {
+    position: absolute;
+    margin-top: 50px;
+    font-size: 20px;
+    padding-left: 100px;
+  }
+}
+
+@media screen and (min-width:950px) {
+  ul.link-list, .fig-cap-category {
+    position: absolute;
+    margin-top: 50px;
+    font-size: 30px;
+    padding-left: 150px;
+  }
+}
+
+
