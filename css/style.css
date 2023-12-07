@@ -305,6 +305,7 @@ head #main-logo {
   text-align: center;
 }
 
+
 #accesories-container {
   display: grid;
   width: 100%;
@@ -324,7 +325,6 @@ head #main-logo {
   object-fit: cover;
   display: block;
 }
-
 /* accessories headline*/
 
 .h1 {
@@ -351,6 +351,8 @@ head #main-logo {
   color: black;
 }
 
+/* responsiv accessories-pictures */
+
 @media screen and (max-width: 480px) {
   #accesories-container {
     align-items: start;
@@ -369,6 +371,7 @@ head #main-logo {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+
 
 /*  LAST PAGE  */
 #text-lastpage {
@@ -500,76 +503,6 @@ td a {
   height: 100px;
 }
 
-/* PAYMENT PAGE */
-.choose-delivery {
-  background-color: black;
-  color: white;
-  width: 40%;
-  padding-left: 10rem;
-  margin-left: 5rem;
-  margin-bottom: 10px;
-}
-
-.images-payment {
-  width: 15%;
-  height: 20%;
-}
-
-.payment-summary {
-  border: 1px solid;
-}
-
-.costs-summary {
-  border-bottom: 2px solid;
-  width: 50%;
-}
-
-.payment-container {
-  display: flex;
-  align-items: center;
-  border-bottom: 1px solid;
-}
-
-.payment-container img {
-  max-width: 50%;
-  width: 30px;
-  height: 20px;
-  margin-right: 70%;
-}
-
-.payment-text {
-  flex: 1;
-}
-
-.your-info {
-  border: 1px solid;
-  padding-left: 3rem;
-  margin-right: 50%;
-  margin-left: 10px;
-}
-
-.continue-box {
-  background-color: black;
-  color: white;
-  width: 40%;
-  padding-left: 10rem;
-  margin-left: 5rem;
-  margin-top: 10px;
-  margin-right: 5rem;
-}
-
-.total-amount {
-  margin-left: 10rem;
-}
-
-#country {
-  margin-bottom: 7px;
-}
-
-#postcode {
-  border-bottom: 2px solid;
-  margin-bottom: 10px;
-}
 
 /* styling for footer */
 footer {
