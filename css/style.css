@@ -1,10 +1,10 @@
+/* Styling for overall-page*/
 html {
   display: inline-block;
 }
 
 /* Styling for overall-body*/
 body {
-  margin: 0;
   font-family: "Inter", sans-serif;
 }
 
@@ -22,51 +22,18 @@ head #main-logo {
   margin: 0 auto;
   padding-left: 200px;
   padding-right: none;
+  width: 40%;
+  padding-top: 20px;
+  margin: 0 auto;
+  animation: fadeInFromRight 1s ease forwards; /*fades in from right to its position*/
 }
 
 #image-container {
   overflow: hidden;
-}
-
-/*this part of the code is inspired by help from chatGPT*/
-#main-logo {
-  width: 40%;
-  padding-top: 20px;
-  margin: 0 auto;
-  animation: fadeInFromRight 1s ease forwards; /*fades in fron right to its position*/
-}
-
-@keyframes spinAndLand {
-  0% {
-    opacity: 0;
-    transform: translateX(-50%) rotate(0deg);
-  }
-  50% {
-    opacity: 0, 5;
-    transform: translateX(0) rotate(10deg);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateX(0) rotate(0deg);
-  }
-}
-
-@keyframes fadeInFromRight {
-  0% {
-    opacity: 0;
-    transform: translateX(40%);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-/*this part of the code is inspired by help from chatGPT*/
-
-#image-container {
-  padding: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20%;
 }
 
 #image-container #flower-pic {
@@ -77,35 +44,23 @@ head #main-logo {
   z-index: 2; /* Index to make the flower-pic appear abowe the house-of-lily-logo */
 }
 
-#image-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 /* Styling for headbar */
-#head-container {
-  justify-content: flex-end;
-}
 .sidemenu {
   max-width: 5vw;
   padding-top: 100vw;
   padding: 5px;
+  flex-direction: row;
+  max-width: 5vw;
+  padding: 5px;
 }
 
-#image-container {
-  padding-left: 20%;
-}
+
 #head-container {
+  justify-content: flex-end;
   max-width: 100vw;
   display: flex;
   overflow-x: auto;
   margin: 0%;
-}
-.sidemenu {
-  flex-direction: row;
-  max-width: 5vw;
-  padding: 5px;
 }
 
 .sidemenu-pic {
@@ -113,6 +68,11 @@ head #main-logo {
 }
 
 /* SEARCHFIELD */
+/* Styling for gap between serchfield and rest of icons */
+.sidemenu {
+  margin-left: 10px;
+}
+
 /* Styling for the search container */
 .search-container {
   display: flex;
@@ -146,21 +106,6 @@ head #main-logo {
   border: 1px;
 }
 
-/* Styling for gap between serchfield and rest of icons */
-.sidemenu {
-  margin-left: 10px;
-}
-
-/* styling for video on frontpage */
-#firstvideo {
-  width: 100%;
-  overflow: hidden;
-}
-
-#video {
-  display: flex;
-}
-
 /* styling for mainmenu*/
 .navlist {
   display: flex;
@@ -176,6 +121,48 @@ head #main-logo {
 .navlist li a {
   text-decoration: none;
   color: black;
+}
+
+/*this part of the code is inspired by help from chatGPT*/
+/*animation for making the flower rotate*/
+@keyframes spinAndLand {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%) rotate(0deg);
+  }
+  50% {
+    opacity: 0, 5;
+    transform: translateX(0) rotate(10deg);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0) rotate(0deg);
+  }
+}
+
+/*animation for making the House of Lily-Logo slide in from right*/
+@keyframes fadeInFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(40%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+/*this part of the code is inspired by help from chatGPT*/
+
+/* styling for video on frontpage */
+#firstvideo {
+  width: 100%;
+  overflow: hidden;
+}
+
+#video {
+  display: flex;
 }
 
 /* styling for Latest news-header */
@@ -223,7 +210,6 @@ head #main-logo {
   height: 40vw;
   padding: 10px;
 }
-
 
 .figcap-category {
   position: absolute;
@@ -326,8 +312,8 @@ head #main-logo {
   object-fit: cover;
   display: block;
 }
-/* accessories headline*/
 
+/* accessories headline*/
 .h1 {
   margin-bottom: 0%;
   text-align: left;
@@ -547,12 +533,6 @@ footer {
 
 #foot {
   font-weight: bolder;
-}
-
-/* styling for footer */
-
-footer {
-  background-color: gray;
 }
 
 /*payment test 2*/
