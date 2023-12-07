@@ -276,6 +276,12 @@ head #main-logo {
 
 /* ACCESSORIES */
 
+/*For js function with picture getting lerger when hovering*/
+.zoomed {
+  transform: scale(1.1); 
+  transition: transform 0.2s ease; 
+}
+
 /*Styling for-Accessories-page*/
 #front-accessories-container {
   width: 100%;
