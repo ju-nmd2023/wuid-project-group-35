@@ -5,7 +5,6 @@ html {
 /* Styling for overall-body*/
 body {
   margin: 0;
-  display: grid;
   font-family: "Inter", sans-serif;
 }
 
@@ -86,7 +85,6 @@ head #main-logo {
 
 /* Styling for headbar */
 #head-container {
-  max-width: 100%;
   justify-content: flex-end;
 }
 .sidemenu {
@@ -274,11 +272,17 @@ head #main-logo {
 
 /* ACCESSORIES */
 
+/*For js function with picture getting lerger when hovering*/
+.zoomed {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
+}
+
 /*Styling for-Accessories-page*/
 #front-accessories-container {
-  width: 100%;
+  width: 100vw;
   text-align: center;
-  width: 100%;
+  width: 100vw;
   overflow: hidden;
   background-size: cover;
   position: relative;
@@ -412,102 +416,6 @@ head #main-logo {
 #add-order {
   margin-left: 3%;
   margin-top: 10%;
-}
-
-/*PRODUCT PAGE-INFO PAGE OF A PRODUCT*/
-/*Styling for-scroll ring pictures*/
-.ring-container {
-  float: right;
-  display: flex;
-  overflow-x: auto;
-  white-space: nowrap;
-  width: 50%;
-  margin-right: 3rem;
-}
-
-/* product page*/
-.description-list li {
-  display: inline-block;
-  margin-left: 1rem;
-}
-
-.product-wrapper {
-  display: flex;
-}
-
-.border-wrap {
-  border: 2px solid black;
-  padding: 10px;
-  display: inline-block;
-  width: 70%;
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
-
-#heart-productpage {
-  display: inline-block;
-  width: 30px;
-  padding-right: 70rem;
-}
-
-#ring-size {
-  border: 2px solid black;
-  padding: 10px;
-  display: inline-block;
-  width: 70%;
-}
-
-#BUY {
-  border: 2px solid black;
-  padding: 10px;
-  display: inline-block;
-  color: black;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.inspo-container {
-  overflow-x: auto;
-  display: flex;
-}
-
-.inspo-container img {
-  flex-direction: row;
-  max-width: 30vw;
-  height: 40vw;
-  padding: 10px;
-}
-
-.ring-container {
-  float: right;
-  display: flex;
-  overflow-x: auto;
-  white-space: nowrap;
-  width: 50%;
-}
-
-.ring-container img {
-  max-width: 100%;
-  height: auto;
-  display: inline-block;
-}
-
-#product-description {
-  color: black;
-}
-
-#materials-care {
-  color: black;
-  text-decoration: none;
-}
-
-#delivery-returns {
-  color: black;
-  text-decoration: none;
-}
-
-.ring-descriptions {
-  display: inline-block;
 }
 
 /* SHOPPINGBAG PAGE*/
@@ -711,79 +619,9 @@ footer {
 }
 
 /* styling for footer */
-.inspo-container img {
-  flex-direction: row;
-  max-width: 30vw;
-  height: 40vw;
-  padding: 10px;
-}
-
-.text-above {
-  position: absolute;
-}
-.ring-descriptions {
-  border: 2px solid black;
-  padding: 10px;
-  display: inline-block;
-  width: 30%;
-}
-
-#ring-size {
-  border: 2px solid black;
-  padding: 10px;
-  display: inline-block;
-  width: 70%;
-}
-
-#BUY {
-  border: 2px solid black;
-  padding: 10px;
-  display: inline-block;
-  color: black;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.border-wrap {
-  border: 2px solid black;
-  padding: 10px;
-  display: inline-block;
-  width: 70%;
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
-
-#heart-productpage {
-  max-width: 5vw;
-  padding: 5px;
-  border: 2px solid black;
-  padding: 5px;
-  display: inline-block;
-  width: 30%;
-  height: 15%;
-}
 
 footer {
   background-color: gray;
-}
-
-.description-list li {
-  display: inline-block;
-  margin-left: 1rem;
-}
-
-#product-description {
-  color: black;
-}
-
-#materials-care {
-  color: black;
-  text-decoration: none;
-}
-
-#delivery-returns {
-  color: black;
-  text-decoration: none;
 }
 
 /*payment test 2*/
@@ -889,6 +727,28 @@ footer {
     width: 20px;
   }
 }
+/*responsiveness for mainmenu*/
+@media screen and (max-width: 440px) {
+  ul {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 615px) {
+  ul {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 100px) {
+  ul.link-list,
+  .fig-cap-category {
+    position: absolute;
+    margin-top: 150px;
+    font-size: 13px;
+    left: 50%;
+    right: 50%;
+  }
+}
 
 /*Responsiveness for text-category container*/
 @media screen and (max-width: 910px) {
@@ -924,7 +784,7 @@ footer {
 @media screen and (max-width: 800px) {
   .footer-column,
   .footer-container {
-    flex-direction: ;
+    flex-direction: column;
     font-size: 10px;
     padding: 10px;
   }
