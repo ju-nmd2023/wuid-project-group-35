@@ -305,7 +305,6 @@ head #main-logo {
   text-align: center;
 }
 
-
 #accesories-container {
   display: grid;
   width: 100%;
@@ -372,7 +371,6 @@ head #main-logo {
   }
 }
 
-
 /*  LAST PAGE  */
 #text-lastpage {
   text-align: center;
@@ -412,7 +410,7 @@ head #main-logo {
 .last-pictures img {
   max-width: 30vw;
   height: 40vw;
-  padding: none;
+  padding: 10px;
 }
 
 /* add something to your order-text */
