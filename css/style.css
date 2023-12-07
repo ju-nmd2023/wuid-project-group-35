@@ -87,7 +87,6 @@ head #main-logo {
 
 /* Styling for headbar */
 #head-container {
-  max-width: 100%;
   justify-content: flex-end;
 }
 .sidemenu {
@@ -725,15 +724,37 @@ footer {
   #image-container {
     padding-left: 0;
   }
-    .search-container {
+  .search-container {
     flex-direction: row;
   }
   .search-bar {
     width: 100%;
-    padding: 0px
+    height: 20px;
   }
   .sidemenu-pic{
     width: 20px;
+  }
+}
+/*responsiveness for mainmenu*/
+@media screen and (max-width:440px) {
+  ul {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width:615px) {
+  ul {
+    font-size: 10px;
+  }
+}
+
+
+@media screen and (min-width:100px) {
+  ul.link-list, .fig-cap-category {
+    position: absolute;
+    margin-top: 150px;
+    font-size: 13px;
+    left: 50%;
+    right: 50%;
   }
 }
 
@@ -772,29 +793,6 @@ footer {
       }
   }
 
-
-/*responsiveness for mainmenu*/
-@media screen and (max-width:440px) {
-  ul {
-    flex-direction: column;
-  }
-}
-@media screen and (min-width:615px) {
-  ul {
-    font-size: 15px;
-  }
-}
-
-
-@media screen and (min-width:100px) {
-  ul.link-list, .fig-cap-category {
-    position: absolute;
-    margin-top: 150px;
-    font-size: 13px;
-    left: 50%;
-    right: 50%;
-  }
-}
 
 /*responsiveness for CATEGORY PAGE*/
 @media screen and (min-width:440px) {
@@ -840,3 +838,5 @@ footer {
     height: 60px;
   }
 }
+
+

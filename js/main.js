@@ -15,7 +15,7 @@ window.addEventListener('load', function () {
     this.classList.remove('zoomed');
   }
 
-  document.querySelectorAll('.accessories-pictures img').forEach(function (img) {
+  document.querySelectorAll('.accessories-pictures img, .cart-img').forEach(function (img) {
     img.addEventListener('mouseover', addZoomEffect);
     img.addEventListener('mouseout', removeZoomEffect);
   });
