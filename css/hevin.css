@@ -135,13 +135,17 @@
 
 @media screen and (max-width: 650px) {
 	.product-wrapper {
-    flex-direction: column-reverse;
+    flex-direction: column;
 	}
   .ring-descriptions{
     width: 80%;
   }
   .ring-container{
     margin-top: 10%;
+    overflow-x: none;
+    float: none;
+    width: 70vw;
+    align-items: center;
   }
 }
 

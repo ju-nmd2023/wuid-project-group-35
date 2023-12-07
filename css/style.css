@@ -652,7 +652,7 @@ footer {
   }
   .search-bar {
     width: 100%;
-    padding: 0px;
+    height: 20px;
   }
   .sidemenu-pic {
     width: 20px;
@@ -745,13 +745,23 @@ footer {
 }
 
 /*responsiveness for CATEGORY PAGE*/
+@media screen and (min-width: 300px) {
+  ul.link-list,
+  .fig-cap-category {
+    position: absolute;
+    margin-top: 120px;
+    font-size: 12px;
+    padding-left: 40px;
+  }
+}
+
 @media screen and (min-width: 440px) {
   ul.link-list,
   .fig-cap-category {
     position: absolute;
     margin-top: 120px;
     font-size: 20px;
-    padding-left: 80px;
+    padding-left: 60px;
   }
 }
 
@@ -800,3 +810,14 @@ footer {
   }
 }
 
+@media screen and (max-width: 1100px) {
+ #flower-pic2{
+ width: 200px;
+ }
+  }
+
+  @media screen and (max-width: 600px) {
+    #flower-pic2{
+    width: 100px;
+    }
+     }
