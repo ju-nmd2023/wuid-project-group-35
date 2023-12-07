@@ -226,15 +226,15 @@ head #main-logo {
   height: 40vw;
   padding: 10px;
 }
-.fig-cap-category {
+.figcap-category {
   position: absolute;
   font-weight: 500;
   color: brown;
-  font-size: 25px;
+  font-size: 40px;
   text-decoration: none;
   top: 35%;
-  left: 2%;
-  right: 4%;
+  right: 0%;
+  left: 0%;
   padding: 10%;
 }
 
@@ -245,6 +245,7 @@ head #main-logo {
 #firstpage-category-container {
   display: flex;
 }
+
 
 /* CATEGORY PAGE */
 /* Styling for backgroundpicture */
@@ -259,7 +260,7 @@ head #main-logo {
 .category-overlay {
   position: absolute;
   top: 35%;
-  left: 40%;
+  left: 30%;
   font-size: 50px;
   text-align: center;
 }
@@ -272,6 +273,7 @@ head #main-logo {
   text-decoration: none;
   line-height: 2.4;
 }
+
 
 /* ACCESSORIES */
 
@@ -416,6 +418,102 @@ head #main-logo {
   margin-top: 10%;
 }
 
+/*PRODUCT PAGE-INFO PAGE OF A PRODUCT*/
+/*Styling for-scroll ring pictures*/
+.ring-container {
+  float: right;
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  width: 50%;
+  margin-right: 3rem;
+}
+
+/* product page*/
+.description-list li {
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.product-wrapper {
+  display: flex;
+}
+
+.border-wrap {
+  border: 2px solid black;
+  padding: 10px;
+  display: inline-block;
+  width: 70%;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+#heart-productpage {
+  display: inline-block;
+  width: 30px;
+  padding-right: 70rem;
+}
+
+#ring-size {
+  border: 2px solid black;
+  padding: 10px;
+  display: inline-block;
+  width: 70%;
+}
+
+#BUY {
+  border: 2px solid black;
+  padding: 10px;
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.inspo-container {
+  overflow-x: auto;
+  display: flex;
+}
+
+.inspo-container img {
+  flex-direction: row;
+  max-width: 30vw;
+  height: 40vw;
+  padding: 10px;
+}
+
+.ring-container {
+  float: right;
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  width: 50%;
+}
+
+.ring-container img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+#product-description {
+  color: black;
+}
+
+#materials-care {
+  color: black;
+  text-decoration: none;
+}
+
+#delivery-returns {
+  color: black;
+  text-decoration: none;
+}
+
+.ring-descriptions {
+  display: inline-block;
+}
+
 /* SHOPPINGBAG PAGE*/
 .shopping {
   padding-left: 3%;
@@ -498,6 +596,7 @@ td a {
   width: 100px;
   height: 100px;
 }
+
 
 /* PAYMENT PAGE */
 .choose-delivery {
@@ -615,12 +714,81 @@ footer {
   font-weight: bolder;
 }
 
+
 /* styling for footer */
+.inspo-container img {
+  flex-direction: row;
+  max-width: 30vw;
+  height: 40vw;
+  padding: 10px;
+}
 
+.text-above {
+  position: absolute;
+}
+.ring-descriptions {
+  border: 2px solid black;
+  padding: 10px;
+  display: inline-block;
+  width: 30%;
+}
 
+#ring-size {
+  border: 2px solid black;
+  padding: 10px;
+  display: inline-block;
+  width: 70%;
+}
+
+#BUY {
+  border: 2px solid black;
+  padding: 10px;
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.border-wrap {
+  border: 2px solid black;
+  padding: 10px;
+  display: inline-block;
+  width: 70%;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+#heart-productpage {
+  max-width: 5vw;
+  padding: 5px;
+  border: 2px solid black;
+  padding: 5px;
+  display: inline-block;
+  width: 30%;
+  height: 15%;
+}
 
 footer {
   background-color: gray;
+}
+
+.description-list li {
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+#product-description {
+  color: black;
+}
+
+#materials-care {
+  color: black;
+  text-decoration: none;
+}
+
+#delivery-returns {
+  color: black;
+  text-decoration: none;
 }
 
 /*payment test 2*/
