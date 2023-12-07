@@ -305,6 +305,7 @@ head #main-logo {
   text-align: center;
 }
 
+
 #accesories-container {
   display: grid;
   width: 100%;
@@ -324,7 +325,6 @@ head #main-logo {
   object-fit: cover;
   display: block;
 }
-
 /* accessories headline*/
 
 .h1 {
@@ -351,6 +351,8 @@ head #main-logo {
   color: black;
 }
 
+/* responsiv accessories-pictures */
+
 @media screen and (max-width: 480px) {
   #accesories-container {
     align-items: start;
@@ -369,6 +371,7 @@ head #main-logo {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+
 
 /*  LAST PAGE  */
 #text-lastpage {
