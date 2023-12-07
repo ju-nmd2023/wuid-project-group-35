@@ -245,24 +245,7 @@ head #main-logo {
   display: flex;
 }
 
-/*Responsiveness for text-category container*/
-@media screen and (max-width:910px) {
-  ul.link-list, .figcap-category {
-    font-size: 30px ;    
-  }
-}
 
-@media screen and (max-width:660px) {
-  ul.link-list, .figcap-category {
-    font-size: 20px ;    
-  }
-}
-
-@media screen and (max-width:440px) {
-  ul.link-list, .figcap-category {
-    font-size: 10px ;    
-  }
-}
 /* CATEGORY PAGE */
 /* Styling for backgroundpicture */
 #background-pic {
@@ -289,6 +272,7 @@ head #main-logo {
   text-decoration: none;
   line-height: 2.4;
 }
+
 
 /* ACCESSORIES */
 
@@ -517,17 +501,6 @@ td a {
   height: 100px;
 }
 
-@media screen and (max-width:750px) {
-  .backtotop {
-    right: 35%;
-  }
-}
-
-@media screen and (max-width:450px) {
-  .backtotop {
-    right: 25%;
-  }
-}
 
 /* PAYMENT PAGE */
 .choose-delivery {
@@ -756,6 +729,25 @@ footer {
     width: 20px;
   }
 }
+
+/*Responsiveness for text-category container*/
+@media screen and (max-width:910px) {
+  ul.link-list, .figcap-category {
+    font-size: 30px ;    
+  }
+}
+
+@media screen and (max-width:660px) {
+  ul.link-list, .figcap-category {
+    font-size: 20px ;    
+  }
+}
+
+@media screen and (max-width:440px) {
+  ul.link-list, .figcap-category {
+    font-size: 10px ;    
+  }
+}
   /*Responsiveness for footer*/
   @media screen and (max-width:440px) {
     .footer-column, .footer-container {
@@ -787,20 +779,32 @@ footer {
 }
 
 
+@media screen and (min-width:100px) {
+  ul.link-list, .fig-cap-category {
+    position: absolute;
+    margin-top: 150px;
+    font-size: 13px;
+    left: 50%;
+    right: 50%;
+  }
+}
+
+/*responsiveness for CATEGORY PAGE*/
 @media screen and (min-width:440px) {
   ul.link-list, .fig-cap-category {
     position: absolute;
-    margin-top: 140px;
+    margin-top: 130px;
     font-size: 20px;
+    padding-left: 80px;
   }
 }
 
 @media screen and (min-width:700px) {
   ul.link-list, .fig-cap-category {
     position: absolute;
-    margin-top: 50px;
+    margin-top: 10px;
     font-size: 20px;
-    padding-left: 100px;
+    padding-left: 110px;
   }
 }
 
@@ -813,4 +817,19 @@ footer {
   }
 }
 
+/*responsiveness for BACK-TO-TOP button*/
+@media screen and (max-width:750px) {
+  .backtotop {
+    right: 35%;
+    width: 80px;
+    height: 80px;
+  }
+}
 
+@media screen and (max-width:450px) {
+  .backtotop {
+    right: 30%;
+    width: 60px;
+    height: 60px;
+  }
+}
