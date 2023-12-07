@@ -14,7 +14,7 @@ window.addEventListener('load', function () {
   function removeZoomEffect() {
     this.classList.remove('zoomed');
   }
-
+  // pictures that the effect should work on
   document.querySelectorAll('.accessories-pictures img, .cart-img').forEach(function (img) {
     img.addEventListener('mouseover', addZoomEffect);
     img.addEventListener('mouseout', removeZoomEffect);
