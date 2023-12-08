@@ -312,7 +312,6 @@ head #main-logo {
   object-fit: cover;
   display: block;
 }
-
 /* accessories headline*/
 .h1 {
   margin-bottom: 0%;
@@ -535,7 +534,13 @@ footer {
   font-weight: bolder;
 }
 
-/*payment test 2*/
+/* styling for footer */
+
+footer {
+  background-color: gray;
+}
+
+/*payment*/
 
 .container2 {
   display: flex;
@@ -785,8 +790,7 @@ footer {
 /*responsiveness for BACK-TO-TOP button*/
 @media screen and (max-width: 1150px) {
   .tocheckout {
-    align-items: center;
-    marginr;
+   align-items: center;
   }
 }
 

@@ -1,154 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>houseoflily</title> 
+    <title>houseoflily</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="js/main.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
 </head>
 
+<body>
 
-<header>
+    <header>
+        <!--Logotype-House of lily+flower-->
+        <div id="head-container">
+            <div id="image-container">
+                <img id="main-logo" src="images/houseoflily.jpg" alt="logotype for house of lily">
+                <img id="flower-pic" src="images/flower.jpeg" alt="logo of lily">
+            </div>
 
-  <!--Logotype-House of lily+flower-->
-   <div id="head-container">
-      <div id="image-container">
-        <img id="main-logo" src="images/houseoflily.jpg" alt="logotype for house of lily">  
-        <img id="flower-pic" src="images/flower.jpeg" alt="logo of lily">
-      </div>
-    
-  <!--Searchfield-->
-      <div class="search-container">
-        <form action="" class="search-bar">
-          <input id="fillin" type="text" placeholder="Search.." name="q">
-          <button id="searchbutton" type="submit">
-        </form>
-      </div>
-    
-  <!--Menu-top-icons-->
-      <div class="sidemenu">
-        <img class="sidemenu-pic" src="images/profile.png" alt="icon for profile">
-      </div>
-    
-      <div class="sidemenu">
-        <img class="sidemenu-pic" src="images/heart.png" alt="icon for hearted items">
-      </div>
-  
-      <a href="shoppingbag.html">
-        <div class="sidemenu">
-         <img class="sidemenu-pic" src="images/shoppingbag.png" alt="icon for shoppingbag">
+            <!--Searchfield-->
+            <div class="search-container">
+                <form action="" class="search-bar">
+                    <input id="fillin" type="text" placeholder="Search.." name="q">
+                    <button id="searchbutton" type="submit"></button>
+                </form>
+            </div>
+
+            <!--Menu-top-icons-->
+            <div class="sidemenu">
+                <img class="sidemenu-pic" src="images/profile.png" alt="icon for profile">
+            </div>
+
+            <div class="sidemenu">
+                <img class="sidemenu-pic" src="images/heart.png" alt="icon for hearted items">
+            </div>
+
+            <a href="shoppingbag.html">
+                <div class="sidemenu">
+                    <img class="sidemenu-pic" src="images/shoppingbag.png" alt="icon for shoppingbag">
+                </div>
+            </a>
         </div>
-      </a>
-   </div>
+    </header>
 
+    <!--Mainmenu start-->
+    <nav class="navbar">
+        <ul class="navlist">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="categories.html">Category</a></li>
+            <li><a href="#">Most popular</a></li>
+            <li><a href="#">Sale</a></li>
+        </ul>
+    </nav>
+    <!--Mainmenu finish-->
 
-<!--Mainmenu start-->
- <nav class="navbar"> 
-  <ul class="navlist">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="#">News</a></li>
-    <li><a href="categories.html">Category</a></li>
-    <li><a href="#">Most popular</a></li>
-    <li><a href="#">Sale</a></li>
-  </ul> 
- </nav>
- <!--Mainmenu finish-->
-</header>
-
-
- <!--Frontpage-video-->
-<div id="video">
-  <video id="firstvideo" autoplay loop muted>
-    <source src="images/newvideo.mp4" type="video/mp4"> 
-  </video>
-</div>
-
- <!--Header-latest news-->
-  <p id="headnews">
-    Lates News
-  </p>
-
-<!--First section- Latest news pictures-->
-<div id="news-container">
-  <div class="news-picture">
-    <img src="images/glitter-dress.jpeg" alt="mididress in silverglitter">
-  </div> 
-  <div class="news-picture">
-    <img src="images/black-glitter-dress.jpeg" alt="mididress in black glitter">
-  </div>
-  <div class="news-picture">
-    <img src="images/glitter-pants.jpeg" alt="pants in glitter">
-  </div>
-  <div class="news-picture">
-    <img src="images/jacket-crop.jpeg" alt="cropped black jacket">
-  </div>
-  <div class="news-picture">
-    <img src="images/glitter-top.jpeg" alt="mididress in silverglitter">
-  </div> 
-  <div class="news-picture">
-    <img src="images/gold-dress.jpeg" alt="mididress in silverglitter">
-  </div> 
-  <div class="news-picture">
-    <img src="images/coat.jpeg" alt="mididress in silverglitter">
-  </div> 
-  <div class="news-picture">
-    <img src="images/glitter-skirt-black.jpeg" alt="mididress in silverglitter">
-  </div> 
-</div>
-<img id="main-news-pic" src="images/main-news-pic.png" alt="girl posing in one of our latest news, silver dress">
-
-<!--second section- categories pictures-->
-<div id="picture-container">
-    <div class="picture">
-      <figcaption class="figcap-category">Dresses</figcaption>
-      <img src="images/lace-dress.jpeg" alt="black dress">
-
+    <!--Frontpage-video-->
+    <div id="video">
+        <video id="firstvideo" autoplay loop muted>
+            <source src="images/newvideo.mp4" type="video/mp4">
+        </video>
     </div>
-    <a href="accessories.html">
-    <div class="picture">
-      <figcaption class="figcap-category">Accessories</figcaption>
-      <img src="images/silver-bag.jpeg" alt="bag in silver">
-    </a>
 
-  </div id="firstpage-category-container" >
-    <div class="picture">
-      <figcaption class="figcap-category">Tops</figcaption>
-      <img src="images/lace-top.jpeg" alt="top in black lace">
-    </div>
-    <div class="picture">
-      <figcaption class="figcap-category">Shoes</figcaption>
-      <img src="images/heals-silver.jpeg" alt="heels in silver">
-    </div>
-    <div class="picture">
-      <figcaption class="figcap-category">Jackets</figcaption>
-      <img src="images/jacket-crop.jpeg" alt="jacket">
-    </div>
-    <div class="picture">
-      <figcaption class="figcap-category">Skirts</figcaption>
-      <img src="images/glitter-skirt-short.jpeg" alt="skirt in siver">
-    </div>
-    <div class="picture">
-      <figcaption class="figcap-category">Jeans</figcaption>
-      <img src="images/jeans.jpeg" alt="blue jeans">
-    </div>
-    <div class="picture">
-      <figcaption class="figcap-category">Pants</figcaption>
-      <img src="images/suitpants-black.jpeg" alt="black suitpants">
-    </div>
-    <div class="picture">
-      <figcaption class="figcap-category">Sweaters</figcaption>
-      <img src="images/brown-knit.jpeg" alt="sweater in brown-knit">
-    </div>
-</div>
+    <!--Header-latest news-->
+    <p id="headnews">
+        Latest News
+    </p>
 
-<!--Back to top button-->
-<button onclick="toTop()" class="backtotop">Back to Top</button>
-<p>
-</p>
+    <!--First section- Latest news pictures-->
+    <div id="news-container">
+        <div class="news-picture">
+            <img src="images/glitter-dress.jpeg" alt="mididress in silverglitter">
+        </div>
+        <div class="news-picture">
+            <img src="images/black-glitter-dress.jpeg" alt="mididress in black glitter">
+        </div>
+        <div class="news-picture">
+            <img src="images/glitter-pants.jpeg" alt="pants in glitter">
+        </div>
+        <div class="news-picture">
+            <img src="images/jacket-crop.jpeg" alt="cropped black jacket">
+        </div>
+        <div class="news-picture">
+            <img src="images/glitter-top.jpeg" alt="mididress in silverglitter">
+        </div>
+        <div class="news-picture">
+            <img src="images/gold-dress.jpeg" alt="mididress in silverglitter">
+        </div>
+        <div class="news-picture">
+            <img src="images/coat.jpeg" alt="mididress in silverglitter">
+        </div>
+        <div class="news-picture">
+            <img src="images/glitter-skirt-black.jpeg" alt="mididress in silverglitter">
+        </div>
+    </div>
+    <img id="main-news-pic" src="images/main-news-pic.png" alt="girl posing in one of our latest news, silver dress">
+
+    <!--Second section- categories pictures-->
+    <div id="picture-container">
+        <div class="picture">
+            <figcaption class="figcap-category">Dresses</figcaption>
+            <img src="images/lace-dress.jpeg" alt="black dress">
+        </div>
+        <a href="accessories.html">
+            <div class="picture">
+                <figcaption class="figcap-category">Accessories</figcaption>
+                <img src="images/silver-bag.jpeg" alt="bag in silver">
+            </div>
+        </a>
+        <div id="firstpage-category-container">
+            <div class="picture">
+                <figcaption class="figcap-category">Tops</figcaption>
+                <img src="images/lace-top.jpeg" alt="top in black lace">
+            </div>
+            <div class="picture">
+                <figcaption class="figcap-category">Shoes</figcaption>
+                <img src="images/heals-silver.jpeg" alt="heels in silver">
+            </div>
+            <div class="picture">
+                <figcaption class="figcap-category">Jackets</figcaption>
+                <img src="images/jacket-crop.jpeg" alt="jacket">
+            </div>
+            <div class="picture">
+                <figcaption class="figcap-category">Skirts</figcaption>
+                <img src="images/glitter-skirt-short.jpeg" alt="skirt in silver">
+            </div>
+            <div class="picture">
+                <figcaption class="figcap-category">Jeans</figcaption>
+                <img src="images/jeans.jpeg" alt="blue jeans">
+            </div>
+            <div class="picture">
+                <figcaption class="figcap-category">Pants</figcaption>
+                <img src="images/suitpants-black.jpeg" alt="black suitpants">
+            </div>
+            <div class="picture">
+                <figcaption class="figcap-category">Sweaters</figcaption>
+                <img src="images/brown-knit.jpeg" alt="sweater in brown-knit">
+            </div>
+        </div>
+    </div>
+
+    <!--Back to top button-->
+    <button onclick="toTop()" class="backtotop">Back to Top</button>
 
 <!--Footer-->
  <footer >
